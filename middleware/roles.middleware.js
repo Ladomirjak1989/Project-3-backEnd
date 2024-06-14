@@ -1,5 +1,7 @@
-const roles = (roles) => {
+const rolesValidation = (roles) => {
+  
     return (req, res, next) => {
+      console.log(req.payload.role)
       if (!roles.includes(req.payload.role)) {
         return res.status(403).json({ message: "Access forbidden: insufficient rights" });
       }
@@ -7,4 +9,4 @@ const roles = (roles) => {
     };
   };
   
-  module.exports = { roles };
+  module.exports = {rolesValidation};

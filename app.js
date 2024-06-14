@@ -15,7 +15,7 @@ const app = express();
 // isAuthenticated is in charge of extracting token, 
 //verifies it + decodes it and, attaches it to req.payload.
 // Without it, req.payload will be undefined
-const { isAuthenticated } = require("./middleware/jwt.middleware")
+// const { isAuthenticated } = require("./middleware/jwt.middleware")
 
 // Import role validation middleware
 const { roles } = require("./middleware/roles.middleware");
@@ -31,15 +31,18 @@ const authRouter = require("./routes/auth.routes");
 app.use("/auth", authRouter);
 
 const adminRouter = require("./routes/admin.routes")
-app.use("/admin", isAuthenticated, roles(["admin"]), adminRouter);
+// app.use("/admin", isAuthenticated, roles(["admin"]), adminRouter);
 
-// const productRouter = require('./routes/product.routes')
-// app.use("/products", isAuthenticated, roles(["admin"]), productRouter);
+const flightRouter = require('./routes/flight.routes')
+app.use("/flights", flightRouter);
 
 // const purchaseRouter = require('./routes/purchase.routes');
 // app.use("/purchases", isAuthenticated, purchaseRouter);
 
 // ❗ To handle errors. Routes that don't exist or errors that you handle in specific routes
 require("./error-handling")(app);
+
+
+
 
 module.exports = app;

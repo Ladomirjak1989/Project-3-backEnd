@@ -11,10 +11,10 @@ const { rolesValidation } = require("../middleware/roles.middleware");
 // localhost:4010/flights/
 
 router.get("/:id", async (req, res, next) => {
-    
+
     try {
         const flight = await Flight.findById(req.params.id);
-       
+
         if (!flight) {
             res.status(404).json({ message: "Flight not found" });
         } else {
@@ -26,9 +26,26 @@ router.get("/:id", async (req, res, next) => {
     }
 })
 
+
+
 router.get('/', async (req, res, next) => {
     try {
-        const flights = await Flight.find();
+        const filter = {};
+
+        if (req.query.flyFrom) filter.city = req.query.flyFrom;
+        if (req.query.flyTo) filter.destinationCity = req.query.flyTo;
+        if (req.query.departing) filter.departureDate = req.query.departing;
+        if (req.query.returning) filter.returnDate = req.query.returning;
+        if (req.query.tripType) filter.oneWay = req.query.tripType === "return" ? "false" : "true";
+        console.log(req.query.passengers)
+        const countOfPassengers = (+req.query?.passengers?.adults) + (+req.query?.passengers?.childrens)
+
+        const flights = await Flight.find(filter);
+        if (countOfPassengers && flights.capacities < countOfPassengers) {
+            res.json({ message: "no seats" })
+
+        }
+
         res.json(flights);
     } catch (err) {
         res.status(500).send(err);
@@ -39,10 +56,7 @@ router.get('/', async (req, res, next) => {
 
 
 // Admin may modify user's role
-router.post("/",isAuthenticated, rolesValidation(["admin"]), (req, res) =>  {
-
-
-
+router.post("/", isAuthenticated, rolesValidation(["admin"]), (req, res) => {
     Flight.create(req.body)
         .then((newFlight) => {
             res.status(201).json(newFlight);
@@ -53,9 +67,9 @@ router.post("/",isAuthenticated, rolesValidation(["admin"]), (req, res) =>  {
 });
 
 // UPDATE/PUT 1-flight/ID
-router.put("/:id", async(req, res, next) => {
+router.put("/:id", async (req, res, next) => {
     try {
-        const flights = await Flight.findByIdAndUpdate(req.params.id, flights,{ new: true, runValidators: true });
+        const flights = await Flight.findByIdAndUpdate(req.params.id, flights, { new: true, runValidators: true });
         if (!updatedFlight) {
             res.status(404).json({ message: "Flight not found" });
         } else {
@@ -65,47 +79,8 @@ router.put("/:id", async(req, res, next) => {
         res.status(500).send(err);
         next(err);
     };
-      });
+});
 
 
 module.exports = router;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-//                 },
-//                 // params: {
-//                 //   origin: 'NYC', // Replace with your origin airport code
-//                 //   maxPrice: 200 // Replace with your maximum price
-//                 // }
-//             })
-//             const data = await response.data.data
-//             console.log(data)
-//             const newData = await data.map(item => {
-//                 return {
-//                     ...item, price: item.price.total,
-//                     flightDates: item.links.flightDates,
-//                     flightOffers: item.links.flightOffers
-//                 }
-
-//             })
-//             const flight = await Flight.insertMany(newData)
-//             res.json(flight)
-
-//         }
-//     } catch (error) {
-//         console.error('Error fetching the token:', error);
-//     }
-// })
-
-//module.exports = router;

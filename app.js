@@ -36,6 +36,10 @@ const adminRouter = require("./routes/admin.routes")
 const flightRouter = require('./routes/flight.routes')
 app.use("/flights", flightRouter);
 
+const vacationRouter = require('./routes/vacation.routes')
+app.use("/vacations", vacationRouter);
+
+
 // const purchaseRouter = require('./routes/purchase.routes');
 // app.use("/purchases", isAuthenticated, purchaseRouter);
 

@@ -4,6 +4,7 @@ const { isAuthenticated } = require("../middleware/jwt.middleware");
 const Flight = require("../models/Flight.model");
 const axios = require("axios");
 const { rolesValidation } = require("../middleware/roles.middleware");
+const { request } = require("../app");
 
 
 
@@ -37,7 +38,7 @@ router.get('/', async (req, res, next) => {
         if (req.query.departing) filter.departureDate = req.query.departing;
         if (req.query.returning) filter.returnDate = req.query.returning;
         if (req.query.tripType) filter.oneWay = req.query.tripType === "return" ? "false" : "true";
-        console.log(req.query.passengers)
+       
         const countOfPassengers = (+req.query?.passengers?.adults) + (+req.query?.passengers?.childrens)
 
         const flights = await Flight.find(filter);
@@ -57,6 +58,7 @@ router.get('/', async (req, res, next) => {
 
 // Admin may modify user's role
 router.post("/", isAuthenticated, rolesValidation(["admin"]), (req, res) => {
+  
     Flight.create(req.body)
         .then((newFlight) => {
             res.status(201).json(newFlight);
@@ -67,13 +69,32 @@ router.post("/", isAuthenticated, rolesValidation(["admin"]), (req, res) => {
 });
 
 // UPDATE/PUT 1-flight/ID
-router.put("/:id", async (req, res, next) => {
+router.put("/:id",isAuthenticated, rolesValidation(["admin"]), async (req, res, next) => {
+   
     try {
-        const flights = await Flight.findByIdAndUpdate(req.params.id, flights, { new: true, runValidators: true });
+        const updatedFlight = await Flight.findByIdAndUpdate(req.params.id, req.body, { new: true, runValidators: true });
         if (!updatedFlight) {
             res.status(404).json({ message: "Flight not found" });
         } else {
-            res.json(updatedflights);
+           
+            res.json(updatedFlight);
+        }
+    } catch (err) {
+        res.status(500).send(err);
+        next(err);
+    };
+});
+
+
+router.delete("/:id",isAuthenticated, rolesValidation(["admin"]), async (req, res, next) => {
+   
+    try {
+        const deleteFlight = await Flight.findByIdAndDelete(req.params.id);
+        if (!deleteFlight) {
+            res.status(404).json({ message: "Flight not found" });
+        } else {
+           
+          res.json(deleteFlight);
         }
     } catch (err) {
         res.status(500).send(err);

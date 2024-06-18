@@ -89,20 +89,6 @@ const flightSchema = new Schema(
       required: [true, " nonStop is required."],
     }
 
-
-
-
-
-
-    // code: {
-    //   type: String,
-    //   required: [true, "Name is required."],
-    // },
-    // dateTime: { 
-    //   type: Schema.Types.Date,
-    // },
-    // price: Number,
-    // userId: Schema.Types.ObjectId
   },
   {
     // this second object adds extra properties: `createdAt` and `updatedAt`

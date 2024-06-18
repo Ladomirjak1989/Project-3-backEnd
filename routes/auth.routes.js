@@ -66,7 +66,7 @@ router.post("/signup", (req, res) => {
       // Create and sign the token
       const authToken = jwt.sign(payload, process.env.TOKEN_SECRET, {
         algorithm: "HS256",
-        expiresIn: "6h",
+        expiresIn: "48h",
       });
 
       // Send a json response containing the user object and authToken
@@ -103,7 +103,7 @@ router.post("/login", (req, res, next) => {
 
       // If user exists, check if provided password is correct
       const isPasswordCorrect = bcrypt.compareSync(password, user.password);
-      console.log(isPasswordCorrect)
+     
       if (isPasswordCorrect) {
         // Deconstruct user object to omit the password
         const { email, role, name, _id } = user;

@@ -1,0 +1,904 @@
+
+     [
+        {
+            "id": 1,
+            "destination": "Santorini, Greece",
+            "duration": "7 nights",
+            "price": 1200,
+            "currency": "EUR",
+            "description": "Experience the breathtaking views and stunning sunsets in Santorini, Greece. Enjoy the local cuisine, historical sites, and beautiful beaches.",
+            "accommodation": {
+                "name": "Santorini Sunset Resort",
+                "type": "Hotel",
+                "rating": 4.5,
+                "address": "123 Caldera View, Fira, Santorini, Greece",
+                "amenities": [
+                    "Free Wi-Fi",
+                    "Breakfast included",
+                    "Outdoor pool",
+                    "Spa services",
+                    "Sea view rooms"
+                ]
+            },
+            "activities": [
+                "Sunset cruise",
+                "Wine tasting tour",
+                "Volcano hike",
+                "Beach day at Perissa",
+                "Historical tour of Akrotiri"
+            ],
+            "images": [
+                "https://i.pinimg.com/736x/7e/2c/72/7e2c72209e6a2988394ae42c0910e01a.jpg",
+                "https://www.travelandleisure.com/thmb/2cuGRXIzti9NI1n3QIlategxOXM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/grace-hotel-00-GRRESTHOTELWB21-727d04ebdac44479afd510fcf4b54b46.jpg",
+                "https://hips.hearstapps.com/hmg-prod/images/best-hotels-in-santorini-5-1641303468.jpeg"
+            ],
+            "reviews": [
+                {
+                    "user": "JaneDoe",
+                    "rating": 5,
+                    "comment": "Amazing views and great service!"
+                },
+                {
+                    "user": "JohnSmith",
+                    "rating": 4,
+                    "comment": "Beautiful place but a bit crowded."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "destination": "Maui, Hawaii",
+            "duration": "10 nights",
+            "price": 2500,
+            "currency": "EUR",
+            "description": "Discover the tropical paradise of Maui with its stunning beaches, lush landscapes, and vibrant culture.",
+            "accommodation": {
+                "name": "Maui Paradise Hotel",
+                "type": "Resort",
+                "rating": 5.0,
+                "address": "789 Aloha Way, Lahaina, Maui, Hawaii, USA",
+                "amenities": [
+                    "All-inclusive",
+                    "Free Wi-Fi",
+                    "Private beach",
+                    "Multiple pools",
+                    "Fitness center",
+                    "Tennis courts"
+                ]
+            },
+            "activities": [
+                "Snorkeling at Molokini Crater",
+                "Road to Hana tour",
+                "Luau experience",
+                "Whale watching",
+                "Helicopter tour of the island"
+            ],
+            "images": [
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/499064702.jpg?k=5ec938d7d267352ce4daa3df2043980e32699ae2c7e708d06aded4beaf21db11&o=&hp=1",
+                "https://npr.brightspotcdn.com/09/e1/f06b5d6a4824b61e0dfb06935bce/photo-dec-03-11-48-19-am-1024x683.jpg",
+                "https://i.insider.com/61e9ed4c2b43ff00185dee3c?width=1066&format=jpeg"
+            ],
+            "reviews": [
+                {
+                    "user": "AliceW",
+                    "rating": 5,
+                    "comment": "Best vacation ever! The luau was fantastic."
+                },
+                {
+                    "user": "BobK",
+                    "rating": 4,
+                    "comment": "Beautiful location, excellent service."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "destination": "Bali, Indonesia",
+            "duration": "7 nights",
+            "price": 1500,
+            "currency": "EUR",
+            "description": "Relax on the beautiful beaches of Bali, explore its rich culture and heritage, and enjoy a luxurious stay.",
+            "accommodation": {
+                "name": "Bali Beach Resort",
+                "type": "Resort",
+                "rating": 4.7,
+                "address": "456 Ocean Drive, Kuta, Bali, Indonesia",
+                "amenities": [
+                    "Beachfront",
+                    "Spa services",
+                    "Free Wi-Fi",
+                    "Infinity pool",
+                    "Restaurant and bar"
+                ]
+            },
+            "activities": [
+                "Surfing lessons",
+                "Temple tour",
+                "Cultural dance show",
+                "Jungle trek",
+                "Snorkeling"
+            ],
+            "images": [
+                "https://cms-asset.ayana.com/OG_Image_ARSB_66cefac2a6.jpg",
+                "https://i.ytimg.com/vi/BZ4wHqlq5iA/maxresdefault.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ_ihyFekba63hlccdvTan-qXPJEm0LH_8nw&s"
+            ],
+            "reviews": [
+                {
+                    "user": "ChrisP",
+                    "rating": 5,
+                    "comment": "Loved the infinity pool and the spa!"
+                },
+                {
+                    "user": "DanaR",
+                    "rating": 4,
+                    "comment": "Great resort, but the beach was crowded."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "destination": "Amalfi Coast, Italy",
+            "duration": "5 nights",
+            "price": 1800,
+            "currency": "EUR",
+            "description": "Enjoy the breathtaking views and charming villages of the Amalfi Coast, with luxurious accommodation and exquisite cuisine.",
+            "accommodation": {
+                "name": "Amalfi Coast Luxury Suites",
+                "type": "Hotel",
+                "rating": 4.8,
+                "address": "789 Cliffside Road, Positano, Amalfi Coast, Italy",
+                "amenities": [
+                    "Sea view rooms",
+                    "Free breakfast",
+                    "Swimming pool",
+                    "Spa services",
+                    "Rooftop bar"
+                ]
+            },
+            "activities": [
+                "Boat tour of the coast",
+                "Visit to Pompeii",
+                "Wine tasting",
+                "Hiking the Path of the Gods",
+                "Cooking class"
+            ],
+            "images": [
+                "https://hips.hearstapps.com/hmg-prod/images/amalfi-coast-hotels-4-1634905907.jpg",
+                "https://www.thehotelguru.com/_images/f0/ed/f0eddb62b02200f1c94f662619a90ac1/600x422.jpg",
+                "https://theasiacollective.com/wp-content/uploads/2020/05/Amalfi-Feature-1.jpg"
+            ],
+            "reviews": [
+                {
+                    "user": "EmilyH",
+                    "rating": 5,
+                    "comment": "Absolutely stunning views and fantastic service."
+                },
+                {
+                    "user": "FrankL",
+                    "rating": 4,
+                    "comment": "Beautiful location but a bit pricey."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "destination": "Phuket, Thailand",
+            "duration": "10 nights",
+            "price": 1300,
+            "currency": "EUR",
+            "description": "Discover the vibrant culture, stunning beaches, and exciting nightlife of Phuket with a stay at a luxurious resort.",
+            "accommodation": {
+                "name": "Phuket Island Resort",
+                "type": "Resort",
+                "rating": 4.6,
+                "address": "321 Beach Road, Patong, Phuket, Thailand",
+                "amenities": [
+                    "Beachfront",
+                    "Free Wi-Fi",
+                    "Outdoor pool",
+                    "Spa and wellness center",
+                    "Restaurant and bar"
+                ]
+            },
+            "activities": [
+                "Island hopping tour",
+                "Scuba diving",
+                "Thai cooking class",
+                "Elephant sanctuary visit",
+                "Night market tour"
+            ],
+            "images": [
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/56673469.jpg?k=71a922ccf869899bd84e5f8f66b31315cb925c64d6a83f9c80b45c3de81a5f16&o=&hp=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/330758699.jpg?k=7253605fefbb09aee464c43139a3317a01b8ad2a7e65c9ec3ba13f5e9897957e&o=&hp=1",
+                "https://images.squarespace-cdn.com/content/v1/549d41a3e4b003c6ce131926/1485626745791-ODGE6Q3MKTBHFR0IT5RP/image-asset.jpeg"
+            ],
+            "reviews": [
+                {
+                    "user": "GinaM",
+                    "rating": 5,
+                    "comment": "Fantastic resort and great activities!"
+                },
+                {
+                    "user": "HarryT",
+                    "rating": 4,
+                    "comment": "Loved the island tours, but the resort was busy."
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "destination": "Barcelona, Spain",
+            "duration": "7 nights",
+            "price": 1100,
+            "currency": "EUR",
+            "description": "Explore the vibrant city of Barcelona, with its rich history, stunning architecture, and delicious cuisine.",
+            "accommodation": {
+                "name": "Barcelona City Hotel",
+                "type": "Hotel",
+                "rating": 4.3,
+                "address": "123 Las Ramblas, Barcelona, Spain",
+                "amenities": [
+                    "Free Wi-Fi",
+                    "Breakfast included",
+                    "Rooftop terrace",
+                    "Air conditioning",
+                    "24-hour reception"
+                ]
+            },
+            "activities": [
+                "City tour",
+                "Beach day",
+                "Sagrada Familia visit",
+                "Tapas tasting",
+                "Park Guell tour"
+            ],
+            "images": [
+                "https://media.cntraveler.com/photos/53d9b64edcd5888e14595bf4/master/pass/majestic-hotel-spa-barcelona-barcelona-spain-107119-1.jpg",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/297275026.jpg?k=1f821481983e8f4251542685a46081b8225998ca5b67450d428cdc80d5d93899&o=&hp=1",
+                "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/41/96/56/h10-madison.jpg?w=1200&h=-1&s=1"
+            ],
+            "reviews": [
+                {
+                    "user": "IsabelR",
+                    "rating": 5,
+                    "comment": "Wonderful city and great hotel location!"
+                },
+                {
+                    "user": "JakeW",
+                    "rating": 4,
+                    "comment": "Loved the rooftop terrace, but rooms were small."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "destination": "Gold Coast, Australia",
+            "duration": "8 nights",
+            "price": 2200,
+            "currency": "EUR",
+            "description": "Experience the stunning beaches, vibrant nightlife, and exciting theme parks of the Gold Coast.",
+            "accommodation": {
+                "name": "Gold Coast Beach Resort",
+                "type": "Resort",
+                "rating": 4.9,
+                "address": "456 Surfers Paradise Blvd, Gold Coast, Australia",
+                "amenities": [
+                    "Beachfront",
+                    "Free Wi-Fi",
+                    "Outdoor pool",
+                    "Spa services",
+                    "Restaurant and bar"
+                ]
+            },
+            "activities": [
+                "Surfing lessons",
+                "Theme park visit",
+                "Wildlife sanctuary tour",
+                "Beach BBQ",
+                "Skydiving"
+            ],
+            "images": [
+                "https://media-cdn.tripadvisor.com/media/photo-s/1a/8c/6b/b5/open-rooftop-terrace.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2eO6nA-TE4K_SvcfhEt7KHzACtImFCNxrEg&s",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhOvtfV_bp1R5IewDvn-HbUNmI0uHVf0nEVw&s"
+            ],
+            "reviews": [
+                {
+                    "user": "KarenB",
+                    "rating": 5,
+                    "comment": "Amazing resort with lots of activities!"
+                },
+                {
+                    "user": "LiamS",
+                    "rating": 4,
+                    "comment": "Great location, but food was expensive."
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "destination": "Cancun, Mexico",
+            "duration": "7 nights",
+            "price": 1600,
+            "currency": "EUR",
+            "description": "Enjoy the beautiful beaches, vibrant nightlife, and rich culture of Cancun with an all-inclusive stay.",
+            "accommodation": {
+                "name": "Cancun All-Inclusive Resort",
+                "type": "Resort",
+                "rating": 4.4,
+                "address": "789 Beachfront Blvd, Cancun, Mexico",
+                "amenities": [
+                    "All-inclusive",
+                    "Free Wi-Fi",
+                    "Multiple pools",
+                    "Spa services",
+                    "Beach access"
+                ]
+            },
+            "activities": [
+                "Snorkeling",
+                "Mayan ruins tour",
+                "Jet skiing",
+                "Beach volleyball",
+                "Nightlife tour"
+            ],
+            "images": [
+                "https://media-cdn.tripadvisor.com/media/photo-s/2c/09/ac/ea/resort-aerial.jpg",
+                "https://www.paradisuscancun.com/images/slides/slide-75.jpg",
+                "https://media.cntraveler.com/photos/63beecded2e940fd7c4eab6b/16:9/w_2560,c_limit/Hilton%20Cancun,%20an%20All-Inclusive%20Resort%20-%20Lobby%20Sea%20View.jpg"
+            ],
+            "reviews": [
+                {
+                    "user": "LauraJ",
+                    "rating": 5,
+                    "comment": "Loved the all-inclusive aspect, everything was easy!"
+                },
+                {
+                    "user": "MarkD",
+                    "rating": 4,
+                    "comment": "Great activities, but resort was a bit crowded."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "destination": "Maldives",
+            "duration": "7 nights",
+            "price": 3000,
+            "currency": "EUR",
+            "description": "Experience luxury and tranquility in the Maldives with stunning overwater villas and pristine beaches.",
+            "accommodation": {
+                "name": "Maldives Overwater Villas",
+                "type": "Villa",
+                "rating": 5.0,
+                "address": "123 Lagoon Road, Maldives",
+                "amenities": [
+                    "Overwater villas",
+                    "Free Wi-Fi",
+                    "Private pools",
+                    "Spa services",
+                    "Restaurant and bar"
+                ]
+            },
+            "activities": [
+                "Scuba diving",
+                "Snorkeling",
+                "Sunset cruise",
+                "Dolphin watching",
+                "Private beach dinners"
+            ],
+            "images": [
+                "https://www.journeyera.com/wp-content/uploads/2022/01/Best-Resorts-Maldives-Couples-1200x800.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfdP-s8cqd3DeItgojVj2fyw7P9lcvW2DE9Q&s",
+                "https://assets.minorhotels.com/image/upload/q_auto,f_auto,c_limit,w_1045/media/minor/nh/images/nh-collection-maldives-havodda-resort/02_rooms__o2/over-water-villa/nh_collection_maldives_havodda_resort_guest_room_over_water_villa_1120x608_1_new.jpg"
+            ],
+            "reviews": [
+                {
+                    "user": "NinaH",
+                    "rating": 5,
+                    "comment": "Absolutely paradise! Worth every penny."
+                },
+                {
+                    "user": "OliverT",
+                    "rating": 5,
+                    "comment": "Best holiday ever, highly recommend the overwater villas."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "destination": "Cape Town, South Africa",
+            "duration": "7 nights",
+            "price": 1400,
+            "currency": "EUR",
+            "description": "Explore the natural beauty, vibrant culture, and rich history of Cape Town with luxurious accommodation.",
+            "accommodation": {
+                "name": "Cape Town Seaside Hotel",
+                "type": "Hotel",
+                "rating": 4.5,
+                "address": "456 Seaside Blvd, Cape Town, South Africa",
+                "amenities": [
+                    "Free Wi-Fi",
+                    "Outdoor pool",
+                    "Spa services",
+                    "Restaurant and bar",
+                    "Sea view rooms"
+                ]
+            },
+            "activities": [
+                "Table Mountain hike",
+                "Winelands tour",
+                "Safari excursion",
+                "Beach day",
+                "Robben Island tour"
+            ],
+            "images": [
+                "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/9e/7b/07/south-beach-camps-bay.jpg?w=1200&h=-1&s=1",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB0Oj2smo6laWdILKIPVvV07cY5KTlgj6Agg&s",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRacwlD2UfRmCNcs54AA3uHxiQO3e4CDrm9Ng&s"
+            ],
+            "reviews": [
+                {
+                    "user": "PaulG",
+                    "rating": 5,
+                    "comment": "Fantastic location and wonderful excursions!"
+                },
+                {
+                    "user": "SarahK",
+                    "rating": 4,
+                    "comment": "Great hotel but a bit noisy at night."
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "destination": "Dubai, UAE",
+            "duration": "5 nights",
+            "price": 1800,
+            "currency": "EUR",
+            "description": "Experience the luxury and opulence of Dubai with world-class shopping, dining, and entertainment.",
+            "accommodation": {
+                "name": "Dubai Luxury Resort",
+                "type": "Resort",
+                "rating": 4.7,
+                "address": "789 Palm Jumeirah, Dubai, UAE",
+                "amenities": [
+                    "Beachfront",
+                    "Free Wi-Fi",
+                    "Infinity pool",
+                    "Spa services",
+                    "Restaurant and bar"
+                ]
+            },
+            "activities": [
+                "Desert safari",
+                "Burj Khalifa visit",
+                "Dubai Mall shopping",
+                "Dhow cruise",
+                "Waterpark day"
+            ],
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdeeNa31yWOR6JO-bdTWPGnPYbRs4ty5OiqQ&s",
+                "https://www.privateupgrades.com/blog/wp-content/uploads/2021/09/atlantisthepalm-exterior-daytimefront-2.jpg",
+                "https://atlantis-the-palm.best-dubai-hotels.com/data/Pics/OriginalPhoto/14395/1439570/1439570257/atlantis-the-palm-hotel-dubai-pic-20.JPEG"
+            ],
+            "reviews": [
+                {
+                    "user": "AishaM",
+                    "rating": 5,
+                    "comment": "Luxurious experience and great activities!"
+                },
+                {
+                    "user": "DavidP",
+                    "rating": 4,
+                    "comment": "Fantastic hotel, but the city can be overwhelming."
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "destination": "Tokyo, Japan",
+            "duration": "7 nights",
+            "price": 2000,
+            "currency": "EUR",
+            "description": "Explore the vibrant city of Tokyo with its unique blend of traditional culture and modern attractions.",
+            "accommodation": {
+                "name": "Tokyo Central Hotel",
+                "type": "Hotel",
+                "rating": 4.5,
+                "address": "123 Shibuya Crossing, Tokyo, Japan",
+                "amenities": [
+                    "Free Wi-Fi",
+                    "Breakfast included",
+                    "Fitness center",
+                    "Rooftop bar",
+                    "Onsen spa"
+                ]
+            },
+            "activities": [
+                "City tour",
+                "Sushi making class",
+                "Temple visits",
+                "Shopping in Shibuya and Harajuku",
+                "Sumo wrestling match"
+            ],
+            "images": [
+                "https://454888.fs1.hubspotusercontent-na1.net/hubfs/454888/assets/toshicenter_tokyo/common/toshi-og-image.jpg",
+                "https://x.cdrst.com/foto/hotel-sf/29ace/granderesp/foto-hotel-12752a1d.jpg",
+                "https://lh3.googleusercontent.com/proxy/OKhnew66_E_GDZkBD1RBAnJ8SxY0CESoP_mo18Hv_OwoKNinXt4472CloaKPp439CQrWGAhVjYcx8mCipSUN6e_Wph7OApLkBvdAqFFObDv5EsvIXJkKKTBP7w37CBPGFi9-TXnQ5kKdQDEUVuVGz-lg4jFuUdaVYsWGgGMEqMDyo3THuMc_A0X68g"
+            ],
+            "reviews": [
+                {
+                    "user": "KimL",
+                    "rating": 5,
+                    "comment": "Tokyo is an amazing city with so much to see and do!"
+                },
+                {
+                    "user": "SamG",
+                    "rating": 4,
+                    "comment": "Great hotel, but the city is very busy."
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "destination": "Paris, France",
+            "duration": "5 nights",
+            "price": 1700,
+            "currency": "EUR",
+            "description": "Discover the romance and charm of Paris with its world-famous landmarks, art, and cuisine.",
+            "accommodation": {
+                "name": "Paris Boutique Hotel",
+                "type": "Hotel",
+                "rating": 4.6,
+                "address": "456 Champs-Elysées, Paris, France",
+                "amenities": [
+                    "Free Wi-Fi",
+                    "Breakfast included",
+                    "Rooftop terrace",
+                    "Concierge service",
+                    "24-hour reception"
+                ]
+            },
+            "activities": [
+                "Eiffel Tower visit",
+                "Louvre Museum tour",
+                "Seine River cruise",
+                "Wine and cheese tasting",
+                "Versailles day trip"
+            ],
+            "images": [
+                "https://www.parisinsidersguide.com/image-files/xhotel-du-petit-moulin-800-2x1.jpg.pagespeed.ic.0cXQdsGdWP.jpg",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/25204735.jpg?k=c0e103172e4013d9cdcdeedaefdefa2473ba7cfdb0034771a9948bc21ee4ed94&o=&hp=1",
+                "https://cdn.boutiquehotel.me/file/hotcdn/hotel/cover-small/5626970_1633646642.jpg"
+            ],
+            "reviews": [
+                {
+                    "user": "AliceB",
+                    "rating": 5,
+                    "comment": "Paris is beautiful and the hotel was perfect!"
+                },
+                {
+                    "user": "MikeH",
+                    "rating": 4,
+                    "comment": "Loved the rooftop terrace, but rooms were small."
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "destination": "Sydney, Australia",
+            "duration": "7 nights",
+            "price": 2100,
+            "currency": "EUR",
+            "description": "Experience the vibrant city life, stunning beaches, and iconic landmarks of Sydney.",
+            "accommodation": {
+                "name": "Sydney Harbour Hotel",
+                "type": "Hotel",
+                "rating": 4.8,
+                "address": "789 Circular Quay, Sydney, Australia",
+                "amenities": [
+                    "Free Wi-Fi",
+                    "Outdoor pool",
+                    "Fitness center",
+                    "Restaurant and bar",
+                    "Harbour view rooms"
+                ]
+            },
+            "activities": [
+                "Sydney Opera House tour",
+                "Bondi Beach day",
+                "Harbour Bridge climb",
+                "Blue Mountains day trip",
+                "Taronga Zoo visit"
+            ],
+            "images": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKLVhskdygL7bjTSu-3kQfK8glHnk8F8hypQ&s",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/310826069.jpg?k=5fd0b1654072db3338d07548820aa312c8d0ab25306cce29c0f0175f6978527c&o=&hp=1",
+                "https://images.squarespace-cdn.com/content/v1/52da9677e4b03d314575985a/1537891929002-L19A0XS9XNWPL8GYF8XF/Hotels+with+a+Sydney+View+-+Sofitel+Sydney+Darling+Harbour.jpg?format=1000w"
+            ],
+            "reviews": [
+                {
+                    "user": "EmmaS",
+                    "rating": 5,
+                    "comment": "Sydney is fantastic and the hotel had great views!"
+                },
+                {
+                    "user": "JohnD",
+                    "rating": 4,
+                    "comment": "Loved the activities, but the hotel was pricey."
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "destination": "Rome, Italy",
+            "duration": "7 nights",
+            "price": 1500,
+            "currency": "EUR",
+            "description": "Explore the rich history and culture of Rome, with its ancient ruins, art, and cuisine.",
+            "accommodation": {
+                "name": "Rome Historic Hotel",
+                "type": "Hotel",
+                "rating": 4.5,
+                "address": "123 Colosseum Ave, Rome, Italy",
+                "amenities": [
+                    "Free Wi-Fi",
+                    "Breakfast included",
+                    "Rooftop terrace",
+                    "Air conditioning",
+                    "24-hour reception"
+                ]
+            },
+            "activities": [
+                "Colosseum tour",
+                "Vatican City visit",
+                "Cooking class",
+                "Ancient Rome walking tour",
+                "Wine tasting in Tuscany"
+            ],
+            "images": [
+                "https://www.besthotelsinitaly.com/wp-content/uploads/2012/07/hotel-ottocento-rome-italy-1-1024x576.jpg",
+                "https://images.trvl-media.com/lodging/2000000/1070000/1064000/1063927/6469d40d.jpg?impolicy=fcrop&w=469&h=201&p=1&q=medium",
+                "https://hotels.razola.xyz/i/b-957cb14627a600656e86bcc6869a37969d03031fe42e5f9407aa590cf7dbde11.jpeg?z=1633184094#s1500x1000"
+            ],
+            "reviews": [
+                {
+                    "user": "SophiaM",
+                    "rating": 5,
+                    "comment": "Rome is amazing and the hotel was great!"
+                },
+                {
+                    "user": "LucaF",
+                    "rating": 4,
+                    "comment": "Loved the history, but the city is crowded."
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "destination": "New York City, USA",
+            "duration": "5 nights",
+            "price": 2000,
+            "currency": "EUR",
+            "description": "Experience the excitement of New York City with its world-famous landmarks, shopping, and entertainment.",
+            "accommodation": {
+                "name": "NYC Central Hotel",
+                "type": "Hotel",
+                "rating": 4.7,
+                "address": "456 Times Square, New York City, USA",
+                "amenities": [
+                    "Free Wi-Fi",
+                    "Breakfast included",
+                    "Fitness center",
+                    "Rooftop bar",
+                    "24-hour reception"
+                ]
+            },
+            "activities": [
+                "Statue of Liberty tour",
+                "Broadway show",
+                "Central Park bike tour",
+                "Empire State Building visit",
+                "Museum of Modern Art tour"
+            ],
+            "images": [
+                "https://i.pinimg.com/originals/09/cd/ff/09cdffbd2a3dc6f3fffb297acd814c9e.jpg",
+                "https://www.parkcentralny.com/wp-content/uploads/2023/11/ParkCentralNY-Gallery_Rooms_02.jpg",
+                "https://res.cloudinary.com/enchanting/q_70,f_auto,c_fill,g_face/hj-web/2020/10/JFK.A.2007.116267.001.jpg"
+            ],
+            "reviews": [
+                {
+                    "user": "AlexJ",
+                    "rating": 5,
+                    "comment": "NYC is amazing and the hotel was in a perfect location!"
+                },
+                {
+                    "user": "TinaH",
+                    "rating": 4,
+                    "comment": "Loved the activities, but the city is very busy."
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "destination": "Istanbul, Turkey",
+            "duration": "7 nights",
+            "price": 1300,
+            "currency": "EUR",
+            "description": "Discover the rich history and vibrant culture of Istanbul, with its stunning architecture and delicious cuisine.",
+            "accommodation": {
+                "name": "Istanbul City Hotel",
+                "type": "Hotel",
+                "rating": 4.6,
+                "address": "123 Bosphorus Ave, Istanbul, Turkey",
+                "amenities": [
+                    "Free Wi-Fi",
+                    "Breakfast included",
+                    "Rooftop terrace",
+                    "Spa services",
+                    "Restaurant and bar"
+                ]
+            },
+            "activities": [
+                "Hagia Sophia tour",
+                "Bosphorus cruise",
+                "Grand Bazaar shopping",
+                "Turkish bath experience",
+                "Topkapi Palace visit"
+            ],
+            "images": [
+                "https://content.r9cdn.net/rimg/himg/0a/52/9d/expediav2-334344-969476648-277848.jpg?width=1200&height=630&crop=true",
+                "https://images.trvl-media.com/lodging/4000000/3880000/3873400/3873325/8fabc1c2.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+                "https://www.wyndhamhotels.com/content/dam/property-images/en-us/hr/tr/others/istanbul/58103/58103_indoor_pool_4.jpg?downsize=720:*"
+            ],
+            "reviews": [
+                {
+                    "user": "MinaK",
+                    "rating": 5,
+                    "comment": "Istanbul is beautiful and the hotel was excellent!"
+                },
+                {
+                    "user": "OmarL",
+                    "rating": 4,
+                    "comment": "Loved the historical sites, but the traffic is bad."
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "destination": "Rio de Janeiro, Brazil",
+            "duration": "7 nights",
+            "price": 1700,
+            "currency": "EUR",
+            "description": "Experience the vibrant culture, stunning beaches, and exciting nightlife of Rio de Janeiro.",
+            "accommodation": {
+                "name": "Rio Beach Hotel",
+                "type": "Hotel",
+                "rating": 4.5,
+                "address": "456 Copacabana Blvd, Rio de Janeiro, Brazil",
+                "amenities": [
+                    "Beachfront",
+                    "Free Wi-Fi",
+                    "Outdoor pool",
+                    "Fitness center",
+                    "Restaurant and bar"
+                ]
+            },
+            "activities": [
+                "Christ the Redeemer visit",
+                "Sugarloaf Mountain tour",
+                "Samba show",
+                "Favela tour",
+                "Beach day at Copacabana"
+            ],
+            "images": [
+                "https://www.kayak.com/rimg/himg/60/9f/09/expediav2-340938-984110947-526286.jpg?width=1366&height=768&crop=true",
+                "https://images.trvl-media.com/lodging/1000000/20000/16600/16596/3512c628.jpg?impolicy=resizecrop&rw=598&ra=fit",
+                "https://cdn.worldota.net/t/640x400/content/bb/ac/bbace95118573f20f2852276c6cc872d821c9f12.jpeg"
+            ],
+            "reviews": [
+                {
+                    "user": "CarlosM",
+                    "rating": 5,
+                    "comment": "Rio is fantastic and the hotel was great!"
+                },
+                {
+                    "user": "AnaS",
+                    "rating": 4,
+                    "comment": "Loved the beaches, but the city can be busy."
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "destination": "Kyoto, Japan",
+            "duration": "7 nights",
+            "price": 1600,
+            "currency": "EUR",
+            "description": "Explore the traditional culture, beautiful temples, and serene gardens of Kyoto.",
+            "accommodation": {
+                "name": "Kyoto Garden Hotel",
+                "type": "Hotel",
+                "rating": 4.7,
+                "address": "123 Bamboo St, Kyoto, Japan",
+                "amenities": [
+                    "Free Wi-Fi",
+                    "Breakfast included",
+                    "Japanese garden",
+                    "Onsen spa",
+                    "Restaurant and bar"
+                ]
+            },
+            "activities": [
+                "Temple tour",
+                "Geisha district visit",
+                "Tea ceremony",
+                "Bamboo forest walk",
+                "Zen garden meditation"
+            ],
+            "images": [
+                "https://pix10.agoda.net/hotelImages/178100/-1/20cb1efbc240d3ab296261b8190b5485.jpg?ca=9&ce=1&s=1024x768",
+                "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/b1/36/8b/lobby.jpg?w=700&h=-1&s=1",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvISUhaEkcXAsQdAOv61Yh_WhcAhGYYAjmbg&s"
+            ],
+            "reviews": [
+                {
+                    "user": "YukiT",
+                    "rating": 5,
+                    "comment": "Kyoto is beautiful and the hotel was very peaceful."
+                },
+                {
+                    "user": "LenaM",
+                    "rating": 4,
+                    "comment": "Loved the temples, but the city is very touristy."
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "destination": "Lisbon, Portugal",
+            "duration": "7 nights",
+            "price": 1400,
+            "currency": "EUR",
+            "description": "Discover the charming streets, historic sites, and delicious cuisine of Lisbon.",
+            "accommodation": {
+                "name": "Lisbon Boutique Hotel",
+                "type": "Hotel",
+                "rating": 4.6,
+                "address": "456 Alfama St, Lisbon, Portugal",
+                "amenities": [
+                    "Free Wi-Fi",
+                    "Breakfast included",
+                    "Rooftop terrace",
+                    "Air conditioning",
+                    "24-hour reception"
+                ]
+            },
+            "activities": [
+                "City tour",
+                "Fado music show",
+                "Belem tower visit",
+                "Sintra day trip",
+                "Wine tasting tour"
+            ],
+            "images": [
+                "https://i0.wp.com/thehoteljournal.com/wp-content/uploads/2022/05/best-boutique-hotels-Lisbon-Portugal-The-Lumiares-MAIN-IMAGE.jpg?fit=1400%2C932&ssl=1",
+                "https://cf.bstatic.com/xdata/images/hotel/max1024x768/269789431.jpg?k=eda9eed07c90daef60b33ad91a8b532fd5e3e1a91e4f3845151357c42d8fdb70&o=&hp=1",
+                "https://bynder.onthebeach.co.uk/m/15c8340dc3a52dcf/original/Lx-Boutique-Hotel.jpg"
+            ],
+            "reviews": [
+                {
+                    "user": "CarlosR",
+                    "rating": 5,
+                    "comment": "Lisbon is charming and the hotel was great!"
+                },
+                {
+                    "user": "AnaP",
+                    "rating": 4,
+                    "comment": "Loved the city, but the streets are hilly."
+                }
+            ]
+        }
+    ]

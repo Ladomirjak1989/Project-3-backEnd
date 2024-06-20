@@ -31,22 +31,23 @@ router.get("/:id", async (req, res, next) => {
 
 router.get('/', async (req, res, next) => {
     try {
-        const filter = {};
+//         const filter = {};
 
-        if (req.query.departure) filter.departure = req.query.departure;
-        if (req.query.destination) filter.destination = req.query.destination;
-        if (req.query.departureDate) filter.departureDate = req.query.departureDate;
-        if (req.query.returnDate) filter.returnDate = req.query.returnDate;
-        if (req.query.duration) filter.duration = req.query.duration;
+//         if (req.query.departure) filter.departure = req.query.departure;
+//         if (req.query.destination) filter.destination = req.query.destination;
+//         if (req.query.departureDate) filter.departureDate = req.query.departureDate;
+//         if (req.query.returnDate) filter.returnDate = req.query.returnDate;
+//         if (req.query.duration) filter.duration = req.query.duration;
 
-        const countOfGuests = (+req.query?.guests?.adults) + (+req.query?.guests?.childrens)
+//         const countOfGuests = (+req.query?.guests?.adults) + (+req.query?.guests?.childrens)
 
-        const vacations = await Vacation.find(filter);
-        if (!countOfGuests) {
-            res.json({ message: "no vacation" })
-        }
-        // if (countOfGuests && vacations.capacities < countOfGuests) {
-        //    }
+        const vacations = await Vacation.find();
+//         if (!countOfGuests) {
+//             res.json({ message: "no vacation" })
+//         }
+//         // if (countOfGuests && vacations.capacities < countOfGuests) {
+//         //    }
+console.log(vacations)
 
         res.json(vacations);
     } catch (err) {

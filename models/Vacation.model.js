@@ -1,62 +1,52 @@
 const { Schema, model } = require("mongoose");
 
-// TODO: Please make sure you edit the Vacation model to whatever makes sense in this case
 const vacationSchema = new Schema(
   {
-    "destination": {
+    destination: {
       type: String,
-      required: [true, "destination is required."],
+      required: [true, "Destination is required."],
     },
-
-    "duration": {
+    duration: {
       type: String,
-      required: [true, "duration is required."],
+      required: [true, "Duration is required."],
     },
-
-    "price": {
+    price: {
       type: Number,
-      required: [true, "price is required."],
+      required: [true, "Price is required."],
     },
-
-    "currency": {
+    currency: {
       type: String,
-      required: [true, " currency is required."],
+      required: [true, "Currency is required."],
     },
-
-    "description": {
+    description: {
       type: String,
-      required: [true, "description is required."],
+      required: [true, "Description is required."],
     },
-
-    "accommodation": {
-      type: String,
-      required: [true, " accommodation is required."],
+    accommodation: {
+      name: { type: String, required: [true, "Accommodation name is required."] },
+      type: { type: String, required: [true, "Accommodation type is required."] },
+      rating: { type: Number, required: [true, "Accommodation rating is required."] },
+      address: { type: String, required: [true, "Accommodation address is required."] },
+      amenities: { type: [String], required: [true, "Amenities are required."] }
     },
-
-    "amenities": {
-      type: String,
-      required: [true, " amenities is required."],
+    activities: {
+      type: [String],
+      required: [true, "Activities are required."],
     },
-
-    "activities": {
-      type: String,
-      required: [true, " activities is required."],
+    images: {
+      type: [String],
+      required: [true, "Images are required."],
     },
-
-    "images": {
-      type: String,
-      required: [true, " images is required."],
-    },
-
-    "reviews": {
-      type: String,
-      required: [true, " reviews is required."],
-    },
-
+    reviews: [
+      {
+        user: { type: String, required: [true, "User is required."] },
+        rating: { type: Number, required: [true, "Rating is required."] },
+        comment: { type: String, required: [true, "Comment is required."] }
+      }
+    ]
   },
   {
-    // this second object adds extra properties: `createdAt` and `updatedAt`
-    timestamps: true,
+    timestamps: true, // This adds createdAt and updatedAt properties
   }
 );
 

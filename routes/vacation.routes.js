@@ -31,23 +31,13 @@ router.get("/:id", async (req, res, next) => {
 
 router.get('/', async (req, res, next) => {
     try {
-//         const filter = {};
+        console.log(req.query, 555)
+        const filter = {};
+        if (req.query.destination) filter.destination = req.query.destination;
+        if (req.query.duration) filter.duration = `${req.query.duration} nights`;
+        const vacations = await Vacation.find(filter);
+        console.log(vacations.length)
 
-//         if (req.query.departure) filter.departure = req.query.departure;
-//         if (req.query.destination) filter.destination = req.query.destination;
-//         if (req.query.departureDate) filter.departureDate = req.query.departureDate;
-//         if (req.query.returnDate) filter.returnDate = req.query.returnDate;
-//         if (req.query.duration) filter.duration = req.query.duration;
-
-//         const countOfGuests = (+req.query?.guests?.adults) + (+req.query?.guests?.childrens)
-
-        const vacations = await Vacation.find();
-//         if (!countOfGuests) {
-//             res.json({ message: "no vacation" })
-//         }
-//         // if (countOfGuests && vacations.capacities < countOfGuests) {
-//         //    }
-console.log(vacations)
 
         res.json(vacations);
     } catch (err) {
@@ -59,7 +49,7 @@ console.log(vacations)
 
 
 // Admin may modify user's role
-router.post("/", isAuthenticated, rolesValidation(["admin"]), (req, res) => {
+router.post("/", isAuthenticated, rolesValidation(["admin"]), (req, res, next) => {
 
     Vacation.create(req.body)
         .then((newVacation) => {
@@ -74,6 +64,7 @@ router.post("/", isAuthenticated, rolesValidation(["admin"]), (req, res) => {
 router.put("/:id", isAuthenticated, rolesValidation(["admin"]), async (req, res, next) => {
 
     try {
+        console.log(req.body)
         const updatedVacation = await Vacation.findByIdAndUpdate(req.params.id, req.body, { new: true, runValidators: true });
         if (!updatedVacation) {
             res.status(404).json({ message: "Vacation not found" });

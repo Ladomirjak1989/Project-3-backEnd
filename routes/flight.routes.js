@@ -57,7 +57,7 @@ router.get('/', async (req, res, next) => {
 
 
 // Admin may modify user's role
-router.post("/", isAuthenticated, rolesValidation(["admin"]), (req, res) => {
+router.post("/", isAuthenticated, rolesValidation(["admin"]), (req, res, next) => {
   
     Flight.create(req.body)
         .then((newFlight) => {

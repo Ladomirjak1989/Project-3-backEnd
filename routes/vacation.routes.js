@@ -11,6 +11,29 @@ const { request } = require("../app");
 
 // localhost:4010/Vacations/
 
+router.get("/deals", async (req, res, next) => {
+
+    try {
+        const vacation = await Vacation.find();
+   
+        const count = req.query.count
+        const randomVacation = []
+        for (let i = 0; i < count; i++) {
+            let random = Math.floor(Math.random() * (vacation.length - 1))
+            randomVacation.push(vacation[random])
+        }
+     
+        res.json(randomVacation);
+        
+
+    } catch (err) {
+        res.status(500).send(err);
+        next(err);
+    }
+})
+
+
+
 router.get("/:id", async (req, res, next) => {
 
     try {
@@ -31,12 +54,12 @@ router.get("/:id", async (req, res, next) => {
 
 router.get('/', async (req, res, next) => {
     try {
-        console.log(req.query, 555)
+       
         const filter = {};
         if (req.query.destination) filter.destination = req.query.destination;
         if (req.query.duration) filter.duration = `${req.query.duration} nights`;
         const vacations = await Vacation.find(filter);
-        console.log(vacations.length)
+        
 
 
         res.json(vacations);
@@ -64,7 +87,7 @@ router.post("/", isAuthenticated, rolesValidation(["admin"]), (req, res, next) =
 router.put("/:id", isAuthenticated, rolesValidation(["admin"]), async (req, res, next) => {
 
     try {
-        console.log(req.body)
+        
         const updatedVacation = await Vacation.findByIdAndUpdate(req.params.id, req.body, { new: true, runValidators: true });
         if (!updatedVacation) {
             res.status(404).json({ message: "Vacation not found" });

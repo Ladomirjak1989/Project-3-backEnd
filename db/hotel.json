@@ -1,0 +1,1542 @@
+[
+    {
+        "id": 1,
+        "name": "Azure Beach Resort",
+        "location": {
+            "country": "Greece",
+            "city": "Santorini",
+            "address": "123 Oceanview Drive, Santorini, Greece",
+            "mapUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.878277691667!2d20.8640847!3d37.81632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1367465d9b05532b%3A0x385cf70201d5585e!2sAZURE%20RESORT%20%26%20SPA!5e0!3m2!1sru!2snl!4v1719297763890!5m2!1sru!2snl\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+        },
+        "accommodation": {
+            "rating": 4.7
+        },
+        "rating": 4.7,
+        "price": 120,
+        "description": "Azure Beach Resort is a luxury beachfront hotel located in the heart of Santorini. Enjoy stunning ocean views, exquisite dining, and world-class amenities. Perfect for families, couples, and solo travelers looking for a relaxing getaway.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Beachfront"
+        ],
+        "board": "All Inclusive",
+        "cancellationPolicy": "Free cancellation within 48 hours of booking",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 120,
+                "availability": true
+            },
+            {
+                "type": "Deluxe Room",
+                "description": "Spacious room with a king-size bed, private bathroom, and a balcony with sea views.",
+                "pricePerNight": 180,
+                "availability": true
+            },
+            {
+                "type": "Suite",
+                "description": "Luxury suite with a king-size bed, living area, private bathroom, and a balcony with panoramic sea views.",
+                "pricePerNight": 250,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/366574669.jpg?k=a0576cb049df31bce060cb4fa184896e5b8fbd9363bcce3601dbb45b5fae7c41&o=&hp=1",
+            "https://pix10.agoda.net/hotelImages/300/3002607/3002607_17102703180058367597.jpg?ca=6&ce=1&s=414x232&ar=16x9",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/122445002.jpg?k=6a99109dbec75e22f682d852184920fa02056370fcfffb252439bdbc94c962bd&o=&hp=1"
+        ],
+        "reviews": [
+            {
+                "username": "john_doe",
+                "rating": 5,
+                "comment": "Amazing stay! The views are breathtaking and the service was excellent. Highly recommend!"
+            },
+            {
+                "username": "jane_smith",
+                "rating": 4,
+                "comment": "Beautiful hotel with great amenities. The beach was lovely and the food was delicious."
+            }
+        ],
+        "contact": {
+            "phone": "+30 123 456 789",
+            "email": "info@azurebeachresort.com",
+            "website": "https://azurebeachresort.com"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Tropical Paradise Hotel",
+        "location": {
+            "country": "Bahamas",
+            "city": "Nassau",
+            "address": "456 Island Blvd, Nassau, Bahamas",
+            "mapUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.098664333482!2d-88.0274759248269!3d17.739989683208613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5c8def1491a011%3A0x47783cdc46406d98!2sTropical%20Paradise%20Hotel%20and%20Restaurant!5e0!3m2!1sru!2sua!4v1719310279080!5m2!1sru!2sua\"width=\"600\" height=\"450\" style=\"border:0\" allowfullscreen=\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"</iframe>"
+        },
+        "accommodation": {
+            "rating": 4.8
+        },
+        "price": 150,
+        "rating": 4.8,
+        "description": "Experience the ultimate tropical getaway at Tropical Paradise Hotel. Located on the pristine beaches of Nassau, our hotel offers luxurious accommodations and top-notch amenities.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Spa and Wellness Center",
+            "Beachfront"
+        ],
+        "board": "Half Board",
+        "cancellationPolicy": "Free cancellation up to 24 hours before arrival",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Cozy room with a queen-size bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 150,
+                "availability": true
+            },
+            {
+                "type": "Ocean View Room",
+                "description": "Room with a king-size bed, private bathroom, and a balcony with ocean views.",
+                "pricePerNight": 220,
+                "availability": true
+            },
+            {
+                "type": "Luxury Suite",
+                "description": "Spacious suite with a king-size bed, living area, private bathroom, and a balcony with panoramic ocean views.",
+                "pricePerNight": 300,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://d1ay7qnb0dqwzm.cloudfront.net/385608.6210.1b2764324a.jpg",
+            "https://tropical-paradise.hotels-belize.com/data/Pics/OriginalPhoto/4193/419356/419356317/tropical-paradise-hotel-caye-caulker-pic-41.JPEG",
+            "https://www.kayak.co.in/rimg/kimg/98/33/35e02f3baf495e86.jpg?width=968&height=607&crop=true"
+        ],
+        "reviews": [
+            {
+                "username": "alice_jones",
+                "rating": 5,
+                "comment": "The best vacation ever! The hotel is fantastic and the staff were incredibly friendly."
+            },
+            {
+                "username": "bob_miller",
+                "rating": 4,
+                "comment": "Great location and amenities. The beach was amazing and the food was superb."
+            }
+        ],
+        "contact": {
+            "phone": "+1 242 123 4567",
+            "email": "info@tropicalparadise.com",
+            "website": "https://tropicalparadise.com"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Sunny Coast Resort",
+        "location": {
+            "country": "Spain",
+            "city": "Malaga",
+            "address": "789 Beachfront Ave, Malaga, Spain",
+            "mapUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3229.8072275739473!2d14.421611575263045!3d35.95168541507067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130e4efe1368d615%3A0x5002bfeb05527117!2sAX%20Sunny%20Coast%20Resort%20%26%20Spa!5e0!3m2!1sru!2sua!4v1719310492863!5m2!1sru!2sua\" width=\"600\" height=\"450\" style=\"border:0\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+        },
+        "accommodation": {
+            "rating": 4.6
+        },
+        "price": 110,
+        "rating": 4.6,
+        "description": "Sunny Coast Resort offers a perfect blend of relaxation and adventure. Located on the beautiful beaches of Malaga, enjoy our comfortable accommodations and a variety of activities.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Beachfront"
+        ],
+        "board": "Full Board",
+        "cancellationPolicy": "Free cancellation up to 7 days before arrival",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 110,
+                "availability": true
+            },
+            {
+                "type": "Sea View Room",
+                "description": "Room with a queen-size bed, private bathroom, and a balcony with sea views.",
+                "pricePerNight": 170,
+                "availability": true
+            },
+            {
+                "type": "Family Suite",
+                "description": "Spacious suite with two bedrooms, a living area, private bathroom, and a balcony with sea views.",
+                "pricePerNight": 230,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/370313539.jpg?k=7a928f5e92fc9271c08250c108c0043640f47d965a87f6f8bd48f2db094ee998&o=&hp=1",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/e2/47/cb/pool-outdoor.jpg?w=500&h=-1&s=1",
+            "https://axhotelsmalta.com/wp-content/uploads/2023/09/Sunny-Coast-Hotel-Gallery-Hotel-Render.jpg"
+        ],
+        "reviews": [
+            {
+                "username": "emma_watson",
+                "rating": 5,
+                "comment": "Fantastic resort! The staff were wonderful and the facilities were excellent."
+            },
+            {
+                "username": "david_smith",
+                "rating": 4,
+                "comment": "Loved the location and the beach. Great place to stay with family."
+            }
+        ],
+        "contact": {
+            "phone": "+34 123 456 789",
+            "email": "info@sunnycoastresort.com",
+            "website": "https://sunnycoastresort.com"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Island Escape Resort",
+        "location": {
+            "country": "Maldives",
+            "city": "Male",
+            "address": "123 Paradise Island, Male, Maldives",
+            "mapUrl": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.5290271607946!2d98.43184887572082!3d7.944154384631734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3050315b04de20b7%3A0x79897bc95b3af6b0!2sIsland%20Escape%20Burasari!5e0!3m2!1sru!2sua!4v1719315621286!5m2!1sru!2sua\" width=\"600\" height=\"450\" style=\"border:0\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+        },
+        "accommodation": {
+            "rating": 4.9
+        },
+        "price": 200,
+        "rating": 4.9,
+        "description": "Island Escape Resort offers a luxurious getaway on a private island in the Maldives. Enjoy crystal-clear waters, white sandy beaches, and unparalleled service.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Spa and Wellness Center",
+            "Beachfront"
+        ],
+        "board": "All Inclusive",
+        "cancellationPolicy": "Free cancellation within 72 hours of booking",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 200,
+                "availability": true
+            },
+            {
+                "type": "Deluxe Room",
+                "description": "Spacious room with a king-size bed, private bathroom, and a balcony with sea views.",
+                "pricePerNight": 300,
+                "availability": true
+            },
+            {
+                "type": "Water Villa",
+                "description": "Luxury villa over the water with a king-size bed, living area, private bathroom, and a balcony with panoramic sea views.",
+                "pricePerNight": 500,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/274257575.jpg?k=c4f78cfb27d1544dbf1942786fa7e9d70fff187287952105123d064a9c4aca9f&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/484972482.jpg?k=e9f58f4f3850a3138f866ef982eba82a62e6c4763d782cd75dd12205d6fe6eda&o=&hp=1",
+            "https://media-cdn.tripadvisor.com/media/photo-m/1280/1b/de/02/0d/island-escape-by-burasari.jpg"
+        ],
+        "reviews": [
+            {
+                "username": "linda_green",
+                "rating": 5,
+                "comment": "An unforgettable experience! The resort is absolutely beautiful and the service is top-notch."
+            },
+            {
+                "username": "michael_brown",
+                "rating": 5,
+                "comment": "Paradise on earth! The water villa was incredible and the staff were amazing."
+            }
+        ],
+        "contact": {
+            "phone": "+960 123 4567",
+            "email": "info@islandescaperesort.com",
+            "website": "https://islandescaperesort.com"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Caribbean Breeze Resort",
+        "location": {
+            "country": "Jamaica",
+            "city": "Montego Bay",
+            "address": "456 Tropical Blvd, Montego Bay, Jamaica",
+            "mapUrl": "https://goo.gl/maps/example5"
+        },
+        "accommodation": {
+            "rating": 4.5
+        },
+        "price": 130,
+        "rating": 4.5,
+        "description": "Caribbean Breeze Resort offers a relaxing retreat on the stunning beaches of Montego Bay. Enjoy the laid-back atmosphere, excellent amenities, and friendly service.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Beachfront"
+        ],
+        "board": "Half Board",
+        "cancellationPolicy": "Free cancellation up to 48 hours before arrival",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 130,
+                "availability": true
+            },
+            {
+                "type": "Ocean View Room",
+                "description": "Room with a queen-size bed, private bathroom, and a balcony with ocean views.",
+                "pricePerNight": 180,
+                "availability": true
+            },
+            {
+                "type": "Suite",
+                "description": "Spacious suite with a king-size bed, living area, private bathroom, and a balcony with panoramic ocean views.",
+                "pricePerNight": 250,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://www.villavistaroyal.com/assets/villas/1/28/villa-caribbean-breeze_8256_810x550.jpg",
+            "https://chestmedia.s3.amazonaws.com/caribcoll/wp-content/uploads/2016/08/stbarts_caribbeanbreeze_18.jpg",
+            "https://caribbean-breeze-6a-condo.hotels-roatan.com/data/Pictures/OriginalPhoto/14094/1409454/1409454620/picture-west-bay-caribbean-breeze-6a-condo-7.JPEG"
+        ],
+        "reviews": [
+            {
+                "username": "susan_wilson",
+                "rating": 4,
+                "comment": "Lovely resort with beautiful views. The staff were friendly and helpful."
+            },
+            {
+                "username": "james_taylor",
+                "rating": 4,
+                "comment": "Great place to relax and enjoy the beach. The food was delicious."
+            }
+        ],
+        "contact": {
+            "phone": "+1 876 123 4567",
+            "email": "info@caribbeanbreezeresort.com",
+            "website": "https://caribbeanbreezeresort.com"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Pacific Pearl Resort",
+        "location": {
+            "country": "Australia",
+            "city": "Gold Coast",
+            "address": "789 Beachside Blvd, Gold Coast, Australia",
+            "mapUrl": "https://goo.gl/maps/example6"
+        },
+        "accommodation": {
+            "rating": 4.7
+        },
+        "price": 140,
+        "rating": 4.7,
+        "description": "Pacific Pearl Resort is located on the beautiful beaches of Gold Coast. Enjoy luxurious accommodations, top-notch amenities, and stunning ocean views.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Spa and Wellness Center",
+            "Beachfront"
+        ],
+        "board": "Full Board",
+        "cancellationPolicy": "Free cancellation within 72 hours of booking",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 140,
+                "availability": true
+            },
+            {
+                "type": "Ocean View Room",
+                "description": "Room with a queen-size bed, private bathroom, and a balcony with ocean views.",
+                "pricePerNight": 200,
+                "availability": true
+            },
+            {
+                "type": "Executive Suite",
+                "description": "Luxury suite with a king-size bed, living area, private bathroom, and a balcony with panoramic ocean views.",
+                "pricePerNight": 280,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://s3-cdn.hotellinksolutions.com/hbe/data/d7cd8a86-7710-1582757327-4429-9c42-02bd18658c86/gallery/room/rt_superior_ocean_view_room_1669595245.jpg",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/375246972.jpg?k=8764cdd1fa5516433aed9ee90ea2159ad7a4bee378c335c60b2694a0f0b7138f&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/50690658.jpg?k=5c29ae1a648ac7c4c0c61bb67ee9cbaa37b0b91a998161e827437e6a0a9f189f&o=&hp=1"
+        ],
+        "reviews": [
+            {
+                "username": "laura_clark",
+                "rating": 5,
+                "comment": "Fantastic resort with excellent service. The ocean view from the room was amazing."
+            },
+            {
+                "username": "daniel_martin",
+                "rating": 4,
+                "comment": "Great location and amenities. The beach was beautiful and the staff were friendly."
+            }
+        ],
+        "contact": {
+            "phone": "+61 123 456 789",
+            "email": "info@pacificpearlresort.com",
+            "website": "https://pacificpearlresort.com"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Seaside Retreat",
+        "location": {
+            "country": "Mexico",
+            "city": "Cancun",
+            "address": "123 Oceanview Blvd, Cancun, Mexico",
+            "mapUrl": "https://goo.gl/maps/example7"
+        },
+        "accommodation": {
+            "rating": 4.6
+        },
+        "price": 130,
+        "rating": 4.6,
+        "description": "Seaside Retreat offers a peaceful and relaxing stay on the stunning beaches of Cancun. Enjoy luxurious accommodations, excellent amenities, and breathtaking ocean views.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Beachfront"
+        ],
+        "board": "All Inclusive",
+        "cancellationPolicy": "Free cancellation within 48 hours of booking",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 130,
+                "availability": true
+            },
+            {
+                "type": "Deluxe Room",
+                "description": "Spacious room with a king-size bed, private bathroom, and a balcony with sea views.",
+                "pricePerNight": 190,
+                "availability": true
+            },
+            {
+                "type": "Suite",
+                "description": "Luxury suite with a king-size bed, living area, private bathroom, and a balcony with panoramic sea views.",
+                "pricePerNight": 260,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/91/86/29/eterrano-seaside-retreat.jpg?w=700&h=-1&s=1",
+            "https://i.pinimg.com/736x/df/a5/7f/dfa57f6bfaeb77fba049931aab9558ff.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRY_Wjmiozkcrl29zQW03NgtRclHvMkYq8Cw&s"
+        ],
+        "reviews": [
+            {
+                "username": "maria_rodriguez",
+                "rating": 5,
+                "comment": "A perfect retreat! The staff were wonderful and the views were breathtaking."
+            },
+            {
+                "username": "john_adams",
+                "rating": 4,
+                "comment": "Lovely hotel with great amenities. The beach was fantastic."
+            }
+        ],
+        "contact": {
+            "phone": "+52 123 456 789",
+            "email": "info@seasideretreat.com",
+            "website": "https://seasideretreat.com"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Coral Reef Resort",
+        "location": {
+            "country": "Thailand",
+            "city": "Phuket",
+            "address": "456 Beachfront Road, Phuket, Thailand",
+            "mapUrl": "https://goo.gl/maps/example8"
+        },
+        "accommodation": {
+            "rating": 4.8
+        },
+        "price": 140,
+        "rating": 4.8,
+        "description": "Coral Reef Resort offers a tropical paradise on the beautiful beaches of Phuket. Enjoy luxurious accommodations, stunning ocean views, and top-notch amenities.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Spa and Wellness Center",
+            "Beachfront"
+        ],
+        "board": "Full Board",
+        "cancellationPolicy": "Free cancellation up to 24 hours before arrival",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 140,
+                "availability": true
+            },
+            {
+                "type": "Ocean View Room",
+                "description": "Room with a queen-size bed, private bathroom, and a balcony with ocean views.",
+                "pricePerNight": 210,
+                "availability": true
+            },
+            {
+                "type": "Luxury Suite",
+                "description": "Spacious suite with a king-size bed, living area, private bathroom, and a balcony with panoramic ocean views.",
+                "pricePerNight": 280,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://www.coralbeachmyrtlebeachresort.com/wp-content/uploads/2022/02/Coral-Beach-OceanView-Efficiency-scaled.jpg",
+            "https://www.coralbeachmyrtlebeachresort.com/wp-content/uploads/2022/03/10-12-21-DJI_0029-1-scaled.jpg",
+            "https://media-cdn.tripadvisor.com/media/photo-s/28/8f/1c/af/coral-reef-resort-havelock.jpg"
+        ],
+        "reviews": [
+            {
+                "username": "olivia_jones",
+                "rating": 5,
+                "comment": "Amazing resort! The staff were incredibly friendly and the views were stunning."
+            },
+            {
+                "username": "liam_smith",
+                "rating": 4,
+                "comment": "Great location and amenities. The beach was beautiful and the food was delicious."
+            }
+        ],
+        "contact": {
+            "phone": "+66 123 456 789",
+            "email": "info@coralreefresort.com",
+            "website": "https://coralreefresort.com"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Paradise Cove Resort",
+        "location": {
+            "country": "Fiji",
+            "city": "Nadi",
+            "address": "789 Island Paradise, Nadi, Fiji",
+            "mapUrl": "https://goo.gl/maps/example9"
+        },
+        "accommodation": {
+            "rating": 4.9
+        },
+        "price": 220,
+        "rating": 4.9,
+        "description": "Paradise Cove Resort offers a luxurious escape on a private island in Fiji. Enjoy pristine beaches, crystal-clear waters, and exceptional service.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Spa and Wellness Center",
+            "Beachfront"
+        ],
+        "board": "All Inclusive",
+        "cancellationPolicy": "Free cancellation within 48 hours of booking",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 220,
+                "availability": true
+            },
+            {
+                "type": "Deluxe Room",
+                "description": "Spacious room with a king-size bed, private bathroom, and a balcony with sea views.",
+                "pricePerNight": 320,
+                "availability": true
+            },
+            {
+                "type": "Beachfront Villa",
+                "description": "Luxury villa with a king-size bed, living area, private bathroom, and a balcony with panoramic sea views.",
+                "pricePerNight": 500,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://static.333travel.nl/web-images/02/2023/63ea082076f19/Mauritius-Paradise-Cove-Hotel-Main-Pool-1.jpg",
+            "https://playa-cms-assets.s3.amazonaws.com/styled/Jewel_Paradise_Cove/Jewel_Paradise_Cove_Rooms/Jewel-Paradise-Cove-Beach-Resort-Pool-View-King-Room.Jpg/e375b3e2c0c4da1c4d4d62c727bc8540",
+            "https://www.paradisecovehotel.com/medias/1573767650_JuniorSuitesliderrub2.jpg"
+        ],
+        "reviews": [
+            {
+                "username": "chris_evans",
+                "rating": 5,
+                "comment": "An unforgettable experience! The resort is absolutely beautiful and the service is top-notch."
+            },
+            {
+                "username": "scarlett_johnson",
+                "rating": 5,
+                "comment": "Paradise on earth! The beachfront villa was incredible and the staff were amazing."
+            }
+        ],
+        "contact": {
+            "phone": "+679 123 4567",
+            "email": "info@paradisecoveresort.com",
+            "website": "https://paradisecoveresort.com"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Ocean Breeze Hotel",
+        "location": {
+            "country": "USA",
+            "city": "Miami",
+            "address": "123 Ocean Drive, Miami, FL, USA",
+            "mapUrl": "https://goo.gl/maps/example10"
+        },
+        "accommodation": {
+            "rating": 4.7
+        },
+        "price": 160,
+        "rating": 4.7,
+        "description": "Ocean Breeze Hotel offers a perfect beachfront location in Miami. Enjoy luxurious accommodations, stunning ocean views, and a variety of amenities.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Beachfront"
+        ],
+        "board": "Full Board",
+        "cancellationPolicy": "Free cancellation up to 24 hours before arrival",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 160,
+                "availability": true
+            },
+            {
+                "type": "Ocean View Room",
+                "description": "Room with a queen-size bed, private bathroom, and a balcony with ocean views.",
+                "pricePerNight": 220,
+                "availability": true
+            },
+            {
+                "type": "Executive Suite",
+                "description": "Luxury suite with a king-size bed, living area, private bathroom, and a balcony with panoramic ocean views.",
+                "pricePerNight": 300,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://www.oceanbreezekhaolak.com/wp-content/uploads/DSC04472-800x400.jpg",
+            "https://d3hk78fplavsbl.cloudfront.net/assets/common-prod/hotel/300/1005003/1005003-1-hotel_carousel_large.jpg?version=156",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQaHbxbj96k3ReCdh-5bwDif24ED6j-ThpXg&s"
+        ],
+        "reviews": [
+            {
+                "username": "emily_johnson",
+                "rating": 5,
+                "comment": "Amazing hotel with excellent service. The ocean view from the room was stunning."
+            },
+            {
+                "username": "michael_davis",
+                "rating": 4,
+                "comment": "Great location and amenities. The beach was beautiful and the staff were friendly."
+            }
+        ],
+        "contact": {
+            "phone": "+1 305 123 4567",
+            "email": "info@oceanbreezehotel.com",
+            "website": "https://oceanbreezehotel.com"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Sandy Shores Resort",
+        "location": {
+            "country": "Portugal",
+            "city": "Algarve",
+            "address": "456 Beachfront Road, Algarve, Portugal",
+            "mapUrl": "https://goo.gl/maps/example11"
+        },
+        "accommodation": {
+            "rating": 4.8
+        },
+        "price": 150,
+        "rating": 4.8,
+        "description": "Sandy Shores Resort offers a relaxing retreat on the beautiful beaches of Algarve. Enjoy luxurious accommodations, excellent amenities, and stunning ocean views.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Beachfront"
+        ],
+        "board": "Half Board",
+        "cancellationPolicy": "Free cancellation within 48 hours of booking",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 150,
+                "availability": true
+            },
+            {
+                "type": "Deluxe Room",
+                "description": "Spacious room with a king-size bed, private bathroom, and a balcony with sea views.",
+                "pricePerNight": 200,
+                "availability": true
+            },
+            {
+                "type": "Suite",
+                "description": "Luxury suite with a king-size bed, living area, private bathroom, and a balcony with panoramic sea views.",
+                "pricePerNight": 270,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://img.directhotels.com/us/north-wildwood/sandy-shores-resort/2.jpg",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/73364265.jpg?k=481e6a2f61533cb508a300bb14e61d9031f5b289f37aa40674654a0809dbe279&o=&hp=1",
+            "https://www.sandyshoresresort.com/images/home2-large.jpg"
+        ],
+        "reviews": [
+            {
+                "username": "sarah_jones",
+                "rating": 5,
+                "comment": "A perfect place to relax and unwind. The staff were amazing and the views were breathtaking."
+            },
+            {
+                "username": "david_white",
+                "rating": 4,
+                "comment": "Lovely hotel with great amenities. The beach was fantastic and the food was delicious."
+            }
+        ],
+        "contact": {
+            "phone": "+351 123 456 789",
+            "email": "info@sandyshoresresort.com",
+            "website": "https://sandyshoresresort.com"
+        }
+    },
+    {
+        "id": 12,
+        "name": "Tropical Oasis Hotel",
+        "location": {
+            "country": "Brazil",
+            "city": "Rio de Janeiro",
+            "address": "789 Beachfront Ave, Rio de Janeiro, Brazil",
+            "mapUrl": "https://goo.gl/maps/example12"
+        },
+        "accommodation": {
+            "rating": 4.7
+        },
+        "price": 140,
+        "rating": 4.7,
+        "description": "Tropical Oasis Hotel offers a luxurious stay on the stunning beaches of Rio de Janeiro. Enjoy comfortable accommodations, top-notch amenities, and beautiful ocean views.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Beachfront"
+        ],
+        "board": "Full Board",
+        "cancellationPolicy": "Free cancellation up to 24 hours before arrival",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 140,
+                "availability": true
+            },
+            {
+                "type": "Sea View Room",
+                "description": "Room with a queen-size bed, private bathroom, and a balcony with sea views.",
+                "pricePerNight": 200,
+                "availability": true
+            },
+            {
+                "type": "Luxury Suite",
+                "description": "Spacious suite with a king-size bed, living area, private bathroom, and a balcony with panoramic ocean views.",
+                "pricePerNight": 270,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/479804190.jpg?k=f46de5ba1284bb11f5f1e97173cee693a524655ca5929b4ca943a40e0052da49&o=&hp=1",
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/522311498.jpg?k=4c1906835df5a098672ae3afe3c39dca3a90fb1d9e57474d3b92c7b14722796f&o=&hp=1",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ10Y09fKtNuS8VMYEIxhwkjBD-5-M56q_JIA&s"
+        ],
+        "reviews": [
+            {
+                "username": "isabella_martinez",
+                "rating": 5,
+                "comment": "Amazing hotel with excellent service. The ocean view from the room was stunning."
+            },
+            {
+                "username": "lucas_hernandez",
+                "rating": 4,
+                "comment": "Great location and amenities. The beach was beautiful and the staff were friendly."
+            }
+        ],
+        "contact": {
+            "phone": "+55 21 123 4567",
+            "email": "info@tropicaloasishotel.com",
+            "website": "https://tropicaloasishotel.com"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Sunset Beach Resort",
+        "location": {
+            "country": "Thailand",
+            "city": "Koh Samui",
+            "address": "123 Sunset Blvd, Koh Samui, Thailand",
+            "mapUrl": "https://goo.gl/maps/example13"
+        },
+        "accommodation": {
+            "rating": 4.9
+        },
+        "price": 150,
+        "rating": 4.9,
+        "description": "Sunset Beach Resort offers a luxurious stay on the beautiful beaches of Koh Samui. Enjoy stunning sunset views, luxurious accommodations, and top-notch amenities.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Spa and Wellness Center",
+            "Beachfront"
+        ],
+        "board": "All Inclusive",
+        "cancellationPolicy": "Free cancellation within 48 hours of booking",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 150,
+                "availability": true
+            },
+            {
+                "type": "Deluxe Room",
+                "description": "Spacious room with a king-size bed, private bathroom, and a balcony with sea views.",
+                "pricePerNight": 220,
+                "availability": true
+            },
+            {
+                "type": "Luxury Suite",
+                "description": "Spacious suite with a king-size bed, living area, private bathroom, and a balcony with panoramic ocean views.",
+                "pricePerNight": 300,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/467473944.jpg?k=f616acd4462ce0ef3f5ae9720f38ebf1fa0f1f02570283621c41fa28bf5cb3f0&o=&hp=1",
+            "https://www.voyagesaquaterra.com/sunscape-splash-montego-bay-5-en.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS04C5rjK2pEpGk1rb2JTW9tpAKFCqfD57eQ&s"
+        ],
+        "reviews": [
+            {
+                "username": "sophia_taylor",
+                "rating": 5,
+                "comment": "Amazing resort! The staff were incredibly friendly and the views were stunning."
+            },
+            {
+                "username": "jacob_wilson",
+                "rating": 5,
+                "comment": "Great location and amenities. The beach was beautiful and the food was delicious."
+            }
+        ],
+        "contact": {
+            "phone": "+66 77 123 4567",
+            "email": "info@sunsetbeachresort.com",
+            "website": "https://sunsetbeachresort.com"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Coral Bay Hotel",
+        "location": {
+            "country": "Australia",
+            "city": "Sydney",
+            "address": "456 Beachfront Road, Sydney, Australia",
+            "mapUrl": "https://goo.gl/maps/example14"
+        },
+        "accommodation": {
+            "rating": 4.7
+        },
+        "price": 140,
+        "rating": 4.7,
+        "description": "Coral Bay Hotel offers a luxurious stay on the beautiful beaches of Sydney. Enjoy comfortable accommodations, top-notch amenities, and stunning ocean views.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Beachfront"
+        ],
+        "board": "Full Board",
+        "cancellationPolicy": "Free cancellation up to 24 hours before arrival",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 140,
+                "availability": true
+            },
+            {
+                "type": "Ocean View Room",
+                "description": "Room with a queen-size bed, private bathroom, and a balcony with ocean views.",
+                "pricePerNight": 210,
+                "availability": true
+            },
+            {
+                "type": "Luxury Suite",
+                "description": "Spacious suite with a king-size bed, living area, private bathroom, and a balcony with panoramic ocean views.",
+                "pricePerNight": 280,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://www.jet2holidays.com/HotelImages/Web/PFO_3174_Coral_Beach_Hotel_&_Resort_1123_01.jpg",
+            "https://www.domina.it/wp-content/uploads/sites/360/2024/04/Aquamarine-old.bed_.jpg",
+            "https://assets.sunshine.co.uk/m/4a16d59adcf6ae40/Small-hotelimages-queens-bay-hotel-280679-1"
+        ],
+        "reviews": [
+            {
+                "username": "ava_jackson",
+                "rating": 5,
+                "comment": "Amazing hotel with excellent service. The ocean view from the room was stunning."
+            },
+            {
+                "username": "william_brown",
+                "rating": 4,
+                "comment": "Great location and amenities. The beach was beautiful and the staff were friendly."
+            }
+        ],
+        "contact": {
+            "phone": "+61 2 123 4567",
+            "email": "info@coralbayhotel.com",
+            "website": "https://coralbayhotel.com"
+        }
+    },
+    {
+        "id": 15,
+        "name": "Golden Sands Resort",
+        "location": {
+            "country": "Malaysia",
+            "city": "Penang",
+            "address": "789 Beachfront Road, Penang, Malaysia",
+            "mapUrl": "https://goo.gl/maps/example15"
+        },
+        "accommodation": {
+            "rating": 4.6
+        },
+        "price":130,
+        "rating": 4.6,
+        "description": "Golden Sands Resort offers a luxurious stay on the beautiful beaches of Penang. Enjoy comfortable accommodations, excellent amenities, and stunning ocean views.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Spa and Wellness Center",
+            "Beachfront"
+        ],
+        "board": "Half Board",
+        "cancellationPolicy": "Free cancellation up to 48 hours before arrival",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 130,
+                "availability": true
+            },
+            {
+                "type": "Sea View Room",
+                "description": "Room with a queen-size bed, private bathroom, and a balcony with sea views.",
+                "pricePerNight": 190,
+                "availability": true
+            },
+            {
+                "type": "Luxury Suite",
+                "description": "Spacious suite with a king-size bed, living area, private bathroom, and a balcony with panoramic ocean views.",
+                "pricePerNight": 260,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXmThVP9IiA52aZf7MO-A6e8GouMABEJUIQg&s",
+            "https://hi-cdn.t-rp.co.uk/images/hotels/321381/18?width=768&height=500&crop=true&quality=80",
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/d0/1e/69/img-20210401-235110-largejpg.jpg?w=700&h=-1&s=1"
+        ],
+        "reviews": [
+            {
+                "username": "mia_anderson",
+                "rating": 5,
+                "comment": "Amazing hotel with excellent service. The ocean view from the room was stunning."
+            },
+            {
+                "username": "jack_thompson",
+                "rating": 4,
+                "comment": "Great location and amenities. The beach was beautiful and the staff were friendly."
+            }
+        ],
+        "contact": {
+            "phone": "+60 4 123 4567",
+            "email": "info@goldensandsresort.com",
+            "website": "https://goldensandsresort.com"
+        }
+    },
+    {
+        "id": 16,
+        "name": "Azure Bay Hotel",
+        "location": {
+            "country": "Greece",
+            "city": "Crete",
+            "address": "123 Beachfront Road, Crete, Greece",
+            "mapUrl": "https://goo.gl/maps/example16"
+        },
+        "accommodation": {
+            "rating": 4.8
+        },
+        "price": 160,
+        "rating": 4.8,
+        "description": "Azure Bay Hotel offers a luxurious stay on the beautiful beaches of Crete. Enjoy comfortable accommodations, top-notch amenities, and stunning ocean views.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Spa and Wellness Center",
+            "Beachfront"
+        ],
+        "board": "All Inclusive",
+        "cancellationPolicy": "Free cancellation within 48 hours of booking",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 160,
+                "availability": true
+            },
+            {
+                "type": "Ocean View Room",
+                "description": "Room with a queen-size bed, private bathroom, and a balcony with ocean views.",
+                "pricePerNight": 220,
+                "availability": true
+            },
+            {
+                "type": "Executive Suite",
+                "description": "Luxury suite with a king-size bed, living area, private bathroom, and a balcony with panoramic ocean views.",
+                "pricePerNight": 300,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://images.trvl-media.com/lodging/16000000/15390000/15383300/15383299/a3fbc3b0.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+            "https://www.hotelsinmauritius.org/data/Photos/OriginalPhoto/10042/1004283/1004283150/photo-royal-sunset-hotel-grand-baie-24.JPEG",
+            "https://images.trvl-media.com/lodging/16000000/15390000/15383300/15383299/c492c772.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill"
+        ],
+        "reviews": [
+            {
+                "username": "emma_clark",
+                "rating": 5,
+                "comment": "Amazing hotel with excellent service. The ocean view from the room was stunning."
+            },
+            {
+                "username": "michael_white",
+                "rating": 4,
+                "comment": "Great location and amenities. The beach was beautiful and the staff were friendly."
+            }
+        ],
+        "contact": {
+            "phone": "+30 123 456 789",
+            "email": "info@azurebayhotel.com",
+            "website": "https://azurebayhotel.com"
+        }
+    },
+    {
+        "id": 17,
+        "name": "Island Paradise Resort",
+        "location": {
+            "country": "Seychelles",
+            "city": "Mahe",
+            "address": "456 Beachfront Road, Mahe, Seychelles",
+            "mapUrl": "https://goo.gl/maps/example17"
+        },
+        "accommodation": {
+            "rating": 4.9
+        },
+        "price":170,
+        "rating": 4.9,
+        "description": "Island Paradise Resort offers a luxurious stay on the beautiful beaches of Mahe. Enjoy stunning ocean views, luxurious accommodations, and top-notch amenities.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Spa and Wellness Center",
+            "Beachfront"
+        ],
+        "board": "Full Board",
+        "cancellationPolicy": "Free cancellation up to 24 hours before arrival",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 170,
+                "availability": true
+            },
+            {
+                "type": "Ocean View Room",
+                "description": "Room with a queen-size bed, private bathroom, and a balcony with ocean views.",
+                "pricePerNight": 230,
+                "availability": true
+            },
+            {
+                "type": "Luxury Suite",
+                "description": "Spacious suite with a king-size bed, living area, private bathroom, and a balcony with panoramic ocean views.",
+                "pricePerNight": 300,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/436797847.jpg?k=f03dc5229c25e5cc17df7bf4f98ba471d223537525e72a734b68fc3391adbafd&o=&hp=1",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq8ADL_FvSgOS2_kh-1ImUuNjS5heVs9GDpw&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypNhP00rXA2K4GZqFRvcOu_zG8qyWhPKReQ&s"
+        ],
+        "reviews": [
+            {
+                "username": "sophia_wilson",
+                "rating": 5,
+                "comment": "Amazing resort! The staff were incredibly friendly and the views were stunning."
+            },
+            {
+                "username": "jacob_taylor",
+                "rating": 5,
+                "comment": "Great location and amenities. The beach was beautiful and the food was delicious."
+            }
+        ],
+        "contact": {
+            "phone": "+248 123 4567",
+            "email": "info@islandparadiseresort.com",
+            "website": "https://islandparadiseresort.com"
+        }
+    },
+    {
+        "id": 18,
+        "name": "Blue Lagoon Resort",
+        "location": {
+            "country": "Mauritius",
+            "city": "Port Louis",
+            "address": "789 Beachfront Road, Port Louis, Mauritius",
+            "mapUrl": "https://goo.gl/maps/example18"
+        },
+        "accommodation": {
+            "rating": 4.7
+        },
+        "price": 150,
+        "rating": 4.7,
+        "description": "Blue Lagoon Resort offers a luxurious stay on the beautiful beaches of Port Louis. Enjoy comfortable accommodations, top-notch amenities, and stunning ocean views.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Beachfront"
+        ],
+        "board": "All Inclusive",
+        "cancellationPolicy": "Free cancellation within 48 hours of booking",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 150,
+                "availability": true
+            },
+            {
+                "type": "Ocean View Room",
+                "description": "Room with a queen-size bed, private bathroom, and a balcony with ocean views.",
+                "pricePerNight": 210,
+                "availability": true
+            },
+            {
+                "type": "Executive Suite",
+                "description": "Luxury suite with a king-size bed, living area, private bathroom, and a balcony with panoramic ocean views.",
+                "pricePerNight": 280,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://tools.vakantiediscounter.nl/tools/content/images/accommodations/ebfe4630-8f5b-11df-a2df-001c42000009/970/0.jpg",
+            "https://bluelagoonvillage.gr/wp-content/uploads/sites/3/2018/06/blv-TwinGardenView-700x466.jpg",
+            "https://images.ctfassets.net/w65k7w0nsb8q/1nocB6wKLAU3JkoLAoPF60/d909963b5274419483ff9314c9900341/BL_Retreat0193_01.jpg"
+        ],
+        "reviews": [
+            {
+                "username": "mia_anderson",
+                "rating": 5,
+                "comment": "Amazing hotel with excellent service. The ocean view from the room was stunning."
+            },
+            {
+                "username": "jack_thompson",
+                "rating": 4,
+                "comment": "Great location and amenities. The beach was beautiful and the staff were friendly."
+            }
+        ],
+        "contact": {
+            "phone": "+230 123 4567",
+            "email": "info@bluelagoonresort.com",
+            "website": "https://bluelagoonresort.com"
+        }
+    },
+    {
+        "id": 19,
+        "name": "Palm Beach Hotel",
+        "location": {
+            "country": "Bahamas",
+            "city": "Nassau",
+            "address": "123 Beachfront Road, Nassau, Bahamas",
+            "mapUrl": "https://goo.gl/maps/example19"
+        },
+        "accommodation": {
+            "rating": 4.8
+        },
+        "price": 170,
+        "rating": 4.8,
+        "description": "Palm Beach Hotel offers a luxurious stay on the beautiful beaches of Nassau. Enjoy comfortable accommodations, top-notch amenities, and stunning ocean views.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Beachfront"
+        ],
+        "board": "Full Board",
+        "cancellationPolicy": "Free cancellation up to 24 hours before arrival",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 170,
+                "availability": true
+            },
+            {
+                "type": "Ocean View Room",
+                "description": "Room with a queen-size bed, private bathroom, and a balcony with ocean views.",
+                "pricePerNight": 230,
+                "availability": true
+            },
+            {
+                "type": "Luxury Suite",
+                "description": "Spacious suite with a king-size bed, living area, private bathroom, and a balcony with panoramic ocean views.",
+                "pricePerNight": 300,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://storage.googleapis.com/wwwstatic.thebreakers.com/filer_public/cd/51/cd51c514-4987-43cf-8017-1319d34d8526/1_new_accommodations_guestrms_landing_atloceanth_k1-2.jpg",
+            "https://www.hotel-palm-beach.com/sites/default/files/styles/vista_habitaciones_720/public/2022-12/Seaside_Palm_Beach_Room_320-1037_comp-min.jpg?itok=7ki5_LWr",
+            "https://www.palmbeachseychelles.com/wp-content/uploads/2024/04/palm-beach-slide-03-enhanced.jpg"
+        ],
+        "reviews": [
+            {
+                "username": "ava_jackson",
+                "rating": 5,
+                "comment": "Amazing hotel with excellent service. The ocean view from the room was stunning."
+            },
+            {
+                "username": "william_brown",
+                "rating": 4,
+                "comment": "Great location and amenities. The beach was beautiful and the staff were friendly."
+            }
+        ],
+        "contact": {
+            "phone": "+1 242 123 4567",
+            "email": "info@palmbeachhotel.com",
+            "website": "https://palmbeachhotel.com"
+        }
+    },
+    {
+        "id": 20,
+        "name": "Golden Sands Resort",
+        "location": {
+            "country": "Maldives",
+            "city": "Male",
+            "address": "456 Beachfront Road, Male, Maldives",
+            "mapUrl": "https://goo.gl/maps/example20"
+        },
+        "accommodation": {
+            "rating": 4.9
+        },
+        "price": 190,
+        "rating": 4.9,
+        "description": "Golden Sands Resort offers a luxurious stay on the beautiful beaches of Male. Enjoy comfortable accommodations, excellent amenities, and stunning ocean views.",
+        "amenities": [
+            "Free WiFi",
+            "Swimming Pool",
+            "Spa and Wellness Center",
+            "Fitness Center",
+            "Restaurant",
+            "Bar",
+            "Beachfront",
+            "Room Service",
+            "Airport Shuttle",
+            "Free Parking"
+        ],
+        "popularFilters": [
+            "Free WiFi",
+            "Spa and Wellness Center",
+            "Beachfront"
+        ],
+        "board": "All Inclusive",
+        "cancellationPolicy": "Free cancellation within 48 hours of booking",
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "description": "Comfortable room with a double bed, private bathroom, and a balcony with garden views.",
+                "pricePerNight": 190,
+                "availability": true
+            },
+            {
+                "type": "Ocean View Room",
+                "description": "Room with a queen-size bed, private bathroom, and a balcony with ocean views.",
+                "pricePerNight": 250,
+                "availability": true
+            },
+            {
+                "type": "Luxury Suite",
+                "description": "Spacious suite with a king-size bed, living area, private bathroom, and a balcony with panoramic ocean views.",
+                "pricePerNight": 320,
+                "availability": true
+            }
+        ],
+        "images": [
+            "https://ik.imgkit.net/3vlqs5axxjf/external/http://media.iceportal.com/73956/photos/65703200_XL.jpg?tr=w-1200%2Cfo-auto",
+            "https://static.wixstatic.com/media/e3667e_c352473d4292417e98bb5b36be08274f~mv2.jpg/v1/fill/w_2500,h_1666,al_c/e3667e_c352473d4292417e98bb5b36be08274f~mv2.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfGL48wqhrzvTkwbUFcYzfBUdt6o1xH5lwGg&s"
+        ],
+        "reviews": [
+            {
+                "username": "olivia_brown",
+                "rating": 5,
+                "comment": "Amazing hotel with excellent service. The ocean view from the room was stunning."
+            },
+            {
+                "username": "liam_wilson",
+                "rating": 5,
+                "comment": "Great location and amenities. The beach was beautiful and the staff were friendly."
+            }
+        ],
+        "contact": {
+            "phone": "+960 123 4567",
+            "email": "info@goldensandsresort.com",
+            "website": "https://goldensandsresort.com"
+        }
+    }
+]

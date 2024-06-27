@@ -4,30 +4,6 @@ const { isAuthenticated } = require("../middleware/jwt.middleware");
 const Hotel = require("../models/Hotel.model");
 const axios = require("axios");
 const { rolesValidation } = require("../middleware/roles.middleware");
-const { request } = require("../app");
-
-// localhost:4010/Hotels/
-
-// router.get("/deals", async (req, res, next) => {
-
-//     try {
-//         const hotel = await Hotel.find();
-
-//         const count = req.query.count
-//         const randomHotel = []
-//         for (let i = 0; i < count; i++) {
-//             let random = Math.floor(Math.random() * (Hotel.length - 1))
-//             randomHotel.push(Hotel[random])
-//         }
-
-//         res.json(randomHotel);
-
-
-//     } catch (err) {
-//         res.status(500).send(err);
-//         next(err);
-//     }
-// })
 
 
 

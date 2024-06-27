@@ -42,6 +42,12 @@ app.use("/vacations", vacationRouter);
 const hotelRouter = require('./routes/hotel.routes')
 app.use("/hotels", hotelRouter);
 
+const cruiseRouter = require('./routes/cruise.routes')
+app.use("/cruises", cruiseRouter);
+
+const cityRouter = require('./routes/city.routes')
+app.use("/cities", cityRouter);
+
 
 // const purchaseRouter = require('./routes/purchase.routes');
 // app.use("/purchases", isAuthenticated, purchaseRouter);

@@ -8,26 +8,26 @@ const { request } = require("../app");
 
 // localhost:4010/Hotels/
 
-router.get("/deals", async (req, res, next) => {
+// router.get("/deals", async (req, res, next) => {
 
-    try {
-        const hotel = await Hotel.find();
+//     try {
+//         const hotel = await Hotel.find();
 
-        const count = req.query.count
-        const randomHotel = []
-        for (let i = 0; i < count; i++) {
-            let random = Math.floor(Math.random() * (Hotel.length - 1))
-            randomHotel.push(Hotel[random])
-        }
+//         const count = req.query.count
+//         const randomHotel = []
+//         for (let i = 0; i < count; i++) {
+//             let random = Math.floor(Math.random() * (Hotel.length - 1))
+//             randomHotel.push(Hotel[random])
+//         }
 
-        res.json(randomHotel);
+//         res.json(randomHotel);
 
 
-    } catch (err) {
-        res.status(500).send(err);
-        next(err);
-    }
-})
+//     } catch (err) {
+//         res.status(500).send(err);
+//         next(err);
+//     }
+// })
 
 
 
@@ -51,11 +51,30 @@ router.get("/:id", async (req, res, next) => {
 
 router.get('/', async (req, res, next) => {
     try {
-        const filter = {};
-        if (req.query.destination) filter.destination = req.query.destination;
-        if (req.query.duration) filter.duration = `${req.query.duration} nights`;
-        const hotels = await Hotel.find(filter);
-        res.json(hotels);
+        
+        if (req.query.destination) {
+            const filter = {};
+            const array = req.query.destination.split(", ")
+            if (array[0]) {
+                filter['location.city'] = array[0];
+            }
+            if (array[1]) {
+                filter['location.country'] = array[1];
+            }
+            const hotels = await Hotel.find(filter);
+          
+          
+            res.json(hotels);
+
+        } 
+        else{
+            const hotels = await Hotel.find();
+            res.json(hotels);
+        }
+        // if (req.query.duration) filter.duration = `${req.query.duration} nights`;
+       
+       
+       
     } catch (err) {
         res.status(500).send(err);
         next(err);

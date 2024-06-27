@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "name": "Mediterranean Flavours",
+        "type": "Marella Cruise",
+        "departure": "Southampton, UK",
+        "destination": "Mediterranean",
+        "duration": "14 nights",
+        "month": "July",
+        "visitingCities": [
+            "Barcelona, Spain",
+            "Rome, Italy",
+            "Athens, Greece",
+            "Santorini, Greece",
+            "Naples, Italy",
+            "Marseille, France"
+        ],
+        "images": [
+            "https://content.planetcruise.com/images/_i4461098.jpg?width=467&keepratio=true",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0KsyOV6vmUKaIxCed-sH8JuVvLwJ7B-9Urw&s",
+            "https://d1s1eppccu7prd.cloudfront.net/ew0KICAiYnVja2V0IjogInByb2Qtc2VydmljZS1pdHJhdmVsY2RuLWVuaGFuY2VidWNrZXQtY2Y0cTZkcXY5djI4IiwNCiAgImtleSI6ICJlbmhhbmNlL2ltYWdlcy84NjlkYmU1OS0zZjJjLTQ3NzEtYjU4Zi04ZTVlYjFhMjBjYzlfMS03MV8xXzEwMDBfNTg1LmpwZyIsDQogICJlZGl0cyI6IHsNCiAgICAicmVzaXplIjogew0KICAgICAgIndpZHRoIjogODAwLA0KICAgICAgImhlaWdodCI6IDQwMCwNCiAgICAgICJmaXQiOiAiY292ZXIiDQogICAgfSwNCiAgICAidG9Gb3JtYXQiOiAianBlZyIsDQogICAgInJvdW5kQ3JvcCI6IGZhbHNlLA0KICAgICJqcGVnIjogew0KICAgICAgInF1YWxpdHkiOiA2MCwNCiAgICAgICJwcm9ncmVzc2l2ZSI6IHRydWUNCiAgICB9DQogIH0NCn0="
+        ],
+        "pricePerPerson": 1500,
+        "totalPrice": 3000,
+        "details": {
+            "description": "Experience the beauty of the Mediterranean with this 14-night cruise visiting some of the most iconic cities and islands in the region. Enjoy luxurious amenities, fine dining, and exciting excursions.",
+            "amenities": [
+                "All Inclusive",
+                "Free WiFi",
+                "Onboard Entertainment",
+                "Excursions Included",
+                "Spa Access",
+                "Kids Club"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ancient Treasures",
+        "type": "Marella Cruise",
+        "departure": "Miami, USA",
+        "destination": "Caribbean",
+        "duration": "10 nights",
+        "month": "December",
+        "visitingCities": [
+            "Nassau, Bahamas",
+            "St. Thomas, US Virgin Islands",
+            "San Juan, Puerto Rico",
+            "Bridgetown, Barbados",
+            "Castries, St. Lucia",
+            "Philipsburg, St. Maarten"
+        ],
+        "images": [
+            "https://widgety.co.uk/media/W1siZiIsIjIwMTkvMDYvMTgvMTUvMzQvNTQvYTMxZjMyOTctYzk4Mi00MDdmLWE5ZjItNjI5NDkzMDUyMDQ1L1Zpa2luZyBPY2VhbiBDcnVpc2VzIFZpa2luZyBWZW51cy5qcGciXSxbInAiLCJ0aHVtYiIsIjUwMHg1MDAiXSxbInAiLCJjb21wcmVzcyIseyJhbGxvd19sb3NzeSI6ImZhbHNlIiwianBlZ29wdGltIjp7ImFsbG93X2xvc3N5IjoiZmFsc2UiLCJtYXhfcXVhbGl0eSI6IjY1In19XV0/Viking%20Ocean%20Cruises%20Viking%20Venus.jpg?sha=9809b8af20911258",
+            "https://cruise.com.cy/volume/images/original/1508330826.jpg",
+            "https://www.scenic.com.au/-/media/project/scenic/scenic-tours/explore-images/oceania/accordion/se_whitehaven-beach-seii.jpg?h=468&iar=0&w=707&rev=df09c330b2164e2f91646a0b27ed87b0&hash=61F561FD9B93EDD10EDCF27803A7BE1B"
+        ],
+        "pricePerPerson": 1800,
+        "totalPrice": 3600,
+        "details": {
+            "description": "Sail through the tropical waters of the Caribbean with this 10-night cruise. Visit stunning islands, enjoy onboard entertainment, and relax in luxurious accommodations.",
+            "amenities": [
+                "All Inclusive",
+                "Free WiFi",
+                "Onboard Entertainment",
+                "Excursions Included",
+                "Water Sports",
+                "Kids Club"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "name": "Northern Europe Capitals",
+        "type": "Marella Cruise",
+        "departure": "Copenhagen, Denmark",
+        "destination": "Northern Europe",
+        "duration": "7 nights",
+        "month": "August",
+        "visitingCities": [
+            "Oslo, Norway",
+            "Stockholm, Sweden",
+            "Helsinki, Finland",
+            "St. Petersburg, Russia",
+            "Tallinn, Estonia",
+            "Riga, Latvia"
+        ],
+        "images": [
+            "https://d3dqioy2sca31t.cloudfront.net/Projects/cms/production/000/014/114/large/b922a60d224e7a4946fd23768d9d6196/715_CruisingCopenhagen.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCgI15SKL06ml_iOT4dBYXBMQ_yPGOuIzkgw&s",
+            "https://www.cruiseandtravel.co.uk/wp-content/uploads/2023/11/Rotterdam-VII-arrives-Rotterdam-on-April-18-2023-1.jpg"
+        ],
+        "pricePerPerson": 2000,
+        "totalPrice": 4000,
+        "details": {
+            "description": "Explore the majestic capitals of Northern Europe with this 7-night cruise. Discover historical landmarks, cultural treasures, and breathtaking scenery.",
+            "amenities": [
+                "All Inclusive",
+                "Free WiFi",
+                "Onboard Entertainment",
+                "Excursions Included",
+                "Sauna and Spa",
+                "Fine Dining"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "name": "Alaskan Wonders",
+        "type": "Marella Cruise",
+        "departure": "Seattle, USA",
+        "destination": "Alaska",
+        "duration": "10 nights",
+        "month": "June",
+        "visitingCities": [
+            "Juneau, Alaska",
+            "Skagway, Alaska",
+            "Ketchikan, Alaska",
+            "Victoria, Canada"
+        ],
+        "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM2WHTFD9jDWMH2EUpcXEZn1ATRILIHHJ3ww&s",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP2OaO46GrbH-TzwvdElrqCXn-OjC-DqwW4A&s",
+            "https://c2.staticflickr.com/8/7256/27557389006_fe28cc9054_b.jpg"
+        ],
+        "pricePerPerson": 2200,
+        "totalPrice": 4400,
+        "details": {
+            "description": "Experience the rugged beauty of Alaska with this 10-night cruise. Witness stunning glaciers, diverse wildlife, and breathtaking landscapes.",
+            "amenities": [
+                "All Inclusive",
+                "Free WiFi",
+                "Onboard Entertainment",
+                "Excursions Included",
+                "Wildlife Tours",
+                "Kids Club"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "name": "Asian Odyssey",
+        "type": "Marella Cruise",
+        "departure": "Singapore",
+        "destination": "Asia",
+        "duration": "12 nights",
+        "month": "March",
+        "visitingCities": [
+            "Bangkok, Thailand",
+            "Ho Chi Minh City, Vietnam",
+            "Hong Kong, China",
+            "Manila, Philippines",
+            "Kota Kinabalu, Malaysia"
+        ],
+        "images": [
+            "https://ik.imgkit.net/3vlqs5axxjf/TW/uploadedImages/Art/2023/0320/T0320SEABOURNODYSSEY_C_HR.jpg?tr=w-1200%2Cfo-auto",
+            "https://www.odysseys-unlimited.com/wp-content/uploads/2023/05/Lead-AdobeStock_282805273-scaled.jpeg",
+            "https://images.ctfassets.net/azgqdbaogm4o/7mZcRJeXgCx7kq9XKDT2de/e0613053e742dc710756f32042bc7e4b/oceania.jpg?w=1920&h=1080&fl=progressive&q=50&fm=jpg"
+        ],
+        "pricePerPerson": 2500,
+        "totalPrice": 5000,
+        "details": {
+            "description": "Embark on an Asian adventure with this 12-night cruise. Discover vibrant cultures, historical landmarks, and stunning natural beauty.",
+            "amenities": [
+                "All Inclusive",
+                "Free WiFi",
+                "Onboard Entertainment",
+                "Excursions Included",
+                "Cultural Tours",
+                "Kids Club"
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "name": "Australian Discovery",
+        "type": "Marella Cruise",
+        "departure": "Sydney, Australia",
+        "destination": "Australia",
+        "duration": "14 nights",
+        "month": "November",
+        "visitingCities": [
+            "Melbourne, Australia",
+            "Brisbane, Australia",
+            "Cairns, Australia",
+            "Darwin, Australia",
+            "Perth, Australia"
+        ],
+        "images": [
+            "https://i.ytimg.com/vi/5NZERnOhSdQ/maxresdefault.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQIaEXBVoWDlmgjNr9tzHmkTkxQwSWU3p1hQ&s",
+            "https://res-console.cloudinary.com/dq0fwucoj/thumbnails/v1/image/upload/v1719470650/OTI3NjVfb3lucjll/preview"
+        ],
+        "pricePerPerson": 2700,
+        "totalPrice": 5400,
+        "details": {
+            "description": "Discover the wonders of Australia with this 14-night cruise. Visit major cities, explore natural wonders, and enjoy onboard luxury.",
+            "amenities": [
+                "All Inclusive",
+                "Free WiFi",
+                "Onboard Entertainment",
+                "Excursions Included",
+                "Great Barrier Reef Tours",
+                "Fine Dining"
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "name": "South American Sojourn",
+        "type": "Marella Cruise",
+        "departure": "Rio de Janeiro, Brazil",
+        "destination": "South America",
+        "duration": "15 nights",
+        "month": "February",
+        "visitingCities": [
+            "Buenos Aires, Argentina",
+            "Montevideo, Uruguay",
+            "Santiago, Chile",
+            "Lima, Peru",
+            "Quito, Ecuador"
+        ],
+        "images": [
+            "https://thumb.spokesman.com/18t9oLwUdheOaB-19if8ZNSxE9E=/1200x800/smart/media.spokesman.com/photos/2017/12/22/TRAVEL_WLT-CAPEHORN_2_SD.jpg",
+            "https://www.seabourn.com/content/dam/sbn/marketing-assets/our-company/about-us/c037-ourcompany-2880x1047-desktop-v2-180412.jpg",
+            "https://cdn.speedsize.com/eb8d0010-7300-4129-8a6d-74bc221f9caf/https://www.virginvoyages.com/dam/jcr:f9fb4241-09ee-4027-af16-236fedb206d4/IMG-DEST-Bassetere-iStock-1485468869-800x900.jpg"
+        ],
+        "pricePerPerson": 3000,
+        "totalPrice": 6000,
+        "details": {
+            "description": "Experience the diverse cultures and landscapes of South America with this 15-night cruise. Explore vibrant cities, historical sites, and stunning nature.",
+            "amenities": [
+                "All Inclusive",
+                "Free WiFi",
+                "Onboard Entertainment",
+                "Excursions Included",
+                "Cultural Tours",
+                "Kids Club"
+            ]
+        }
+    }
+]

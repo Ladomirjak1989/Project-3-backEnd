@@ -1,0 +1,102 @@
+[
+    {
+        "id": 188590,
+        "imgUrl": "https://www.thetrainline.com/content/vul/hero-images/city/amsterdam/2x.jpg",
+        "name": "Amsterdam",
+        "latitude": "52.35",
+        "longitude": "4.9166",
+        "country": "NL",
+        "population": "1031000",
+        "description": "From its picturesque canals and bridges to its historic homes, Amsterdam could be considered straight out of a fairytale (and the brightly-coloured bicycles and tulip stands around town don’t hurt either). Must-see sights include the Anne Frank House, the Van Gogh Museum, and the world's only floating flower market. Rent a bike and join thousands of locals peddling around. Other visitors might want to linger in the local coffee shops, which is just a normal part of the city's landscape. Check out more recs below to make the most of your trip."
+    },
+    {
+        "id": 187514,
+        "imgUrl": "https://a.cdn-hotels.com/gdcs/production157/d176/312ab719-cb0c-4030-9d55-d50752f517b2.jpg?impolicy=fcrop&w=800&h=533&q=medium",
+        "name": "Madrid",
+        "latitude": "40.4189",
+        "longitude": "3.6919",
+        "country": "ES",
+        "population": "3266126",
+        "description": "Smack dab in the middle of Spain lies vibrant Madrid—the country's storybook capital. Each of its eclectic neighbourhoods has its own distinct charm: You'll find hipster vibes in Malasaña, where quaint shops make way for club crowds after dark; upscale eats and top-tier boutiques in Salamanca; and steep, maze-like streets lined with authentic restaurants and great people-watching in Lavapies. And don't miss Madrid's popular landmarks. A few favourites: The great bear statue in the central Puerta del Sol, the Reina Sofia and Prado museums, and Plaza Mayor. Finish things off with 10 p.m. tapas (it's how the locals do it), then hit the bars and clubs if that's your thing. Find even more Madrid recs below."
+    },
+    {
+        "id": 187147,
+        "imgUrl": "https://static.euronews.com/articles/stories/08/26/30/34/1200x675_cmsv2_1d187369-5bb5-5abb-a3f1-62b55d3e84a7-8263034.jpg",
+        "name": "Paris",
+        "latitude": "48.8566",
+        "longitude": "2.3522",
+        "country": "FR",
+        "population": "11020000",
+        "description": "Paris lives up to its hype: A city with unbelievable food and culture, plus stunning views everywhere you turn. With 18 arrondissements, it’s a lot to see in one trip, but each neighbourhood has a personality all its own. You can’t miss the iconic 7th, where art and history meet—there’s the Eiffel Tower, sure, but the impressive Musée du quai Branly is just a short walk away. It houses an amazing collection of indigenous art. Or, hit up Montmartre (the 18th), with its boho shops and cosy brasseries. It’s a must-stop on the way up or down from Sacre Coeur. While the French practically invented fine dining, don’t skip the street food—Paris has world-class kebabs and falafel. But no matter where you are, be sure to pop into a sidewalk cafe, sip a glass of wine, and people watch—it’s the way to get a taste of true Parisian culture."
+    },
+    {
+        "id": 187791,
+        "imgUrl": "https://media.weflycheap.be/eyJidWNrZXQiOiJ3ZWZseWNoZWFwIiwia2V5IjoiMzExZGE2MzM4MWE1NGY1NGI2ODBlMWU1ZmNhN2M4NGVfdXJsXzkzMDA2LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6Mzg0MCwiZml0IjoiaW5zaWRlIiwicXVhbGl0eSI6NzV9fX0=",
+        "name": "Rome",
+        "latitude": "41.8931",
+        "longitude": "12.4828",
+        "country": "IT",
+        "population": "2872800",
+        "description": "It’s easy to see why Rome’s one of the most-visited places on the planet: There’s history everywhere (the Pantheon, the Colosseum, the list goes on), sculptural masterpieces in almost every piazza, and—of course—ridiculously good food. Every trip could feel like a whirlwind, but slow down and you’ll discover lots of surprises. Spend a Sunday morning in Trastevere and hunt for vintage finds at Porta Portese flea market. Or hit San Lorenzo—a student neighbourhood with an edgy-but-charming vibe—for trendy shops, galleries, and street art. Dinner’s not ‘til late here, so grab an aperitivo in Prati—it’s walkable from the Vatican and packed with quirky sidestreet bars.Yes, the energy’s next-level, so if you need a break, head for the hills (literally) and check out Aventine Hill, a leafy-green suburb with peaceful gardens and some of the best views of the city. There’s always something to do and we’ve got more recs, below."
+    },
+    {
+        "id": 186338,
+        "imgUrl": "https://www.vietnamairlines.com/~/media/Images/Discovery/England/London/canh%20dep/986x906/London_canhdep_986x906.jpg",
+        "name": "London",
+        "latitude": "51.5072",
+        "longitude": "-0.1275",
+        "country": "GB",
+        "population": "10979000",
+        "description": "London’s a sprawling city at the centre of everything: art, history, culture—you name it. But what sets it apart from other major hubs are its distinct neighbourhoods, each with their own vibe. Spend an afternoon with the fam in Kensington: It’s got museums, parks, and plenty of other kid-approved things to do. Or check out edgy Shoreditch for cool shops and street murals (perfect for photo ops), then head to Soho where you can grab a pint at a pub or hit a club and party ‘til dawn. Food’s a big deal here: Yes, there’s fish and chips, but also next-level curry houses thanks to London’s thriving Bangladeshi community (take your pick from tons of spots on Brick Lane), plus a growing roster of celebrity chef-driven restaurants in posh Mayfair. There’s always something new going on and we’ve got more recs, below."
+    },
+    {
+        "id": 60763,
+        "imgUrl": "https://cdn.britannica.com/61/93061-050-99147DCE/Statue-of-Liberty-Island-New-York-Bay.jpg",
+        "name": "New York",
+        "latitude": "40.6943",
+        "longitude": "-73.9249",
+        "country": "US",
+        "population": "18713220",
+        "description": "The tallest skyscrapers, the biggest museums, the cheesiest pizza. New York City takes everything to the max. It’s easy to see why it’s the most-visited place in the U.S.: Whether you want to check out historic landmarks, catch a Broadway show, or stroll the streets of Brooklyn, there’s no wrong way to do it—and something new to discover every time you go. Spend the day neighbourhood-hopping, from the family-friendly Upper West Side packed with playgrounds and cute restaurants to the gritty-but-cool Lower East Side, each has its own vibe. Browse art galleries in Chelsea, go shopping in SoHo, then grab a drink in the East Village. Or, take the subway (or walk across the Brooklyn Bridge) and cruise the cobblestone streets in Dumbo. Want some nature? It’s got that, too. Have a picnic in Central Park, hit the High Line, or hop on a ferry and see the city from the sea. That’s just the start—we’ve got more ideas below."
+    },
+    {
+        "id": 295424,
+        "imgUrl": "https://media.cnn.com/api/v1/images/stellar/prod/200924183413-dubai-9-1.jpg?q=w_1600,h_900,x_0,y_0,c_fill",
+        "name": "Dubai",
+        "latitude": "25.2697",
+        "longitude": "55.3094",
+        "country": "AE",
+        "population": "2502715",
+        "description": "Everything feels extra spectacular in Dubai—from the ultra-modern Burj Khalifa to the souks and malls filled with gold and jewellery vendors. It’s a place where if you can dream it, you can do it: Whether that means skiing indoors, dune-surfing in the desert, or zip-lining above the city. But it’s not all glitz and adrenaline-pumping action. Stroll through the winding alleys of Al Fahidi Historical Neighbourhood to see what Dubai was like during the mid-19th century. Or visit the Jumeirah Mosque (one of the few mosques open to non-Muslims) and learn about Emirati culture. Spot some street art on Jumeirah Beach Road and grab a bite at a shawarma shop, or spend the day hunting for spices and perfume then round things out with a Michelin-starred meal. You can really do it all and we’ve got more recs, below."
+    },
+    {
+        "id": 298184,
+        "imgUrl": "https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2022/05/chureito-pagoda-fuji-GettyImages-901228728-1024x600.jpg",
+        "name": "Tokyo",
+        "latitude": "35.6897",
+        "longitude": "139.692",
+        "country": "JP",
+        "population": "37977000",
+        "description": "With its futuristic skyscrapers, unrivalled food scene, and wild nightlife, Tokyo is a rush of pure adrenaline. The city is famously cutting-edge, yet its ancient Buddhist temples, vintage teahouses, and peaceful gardens offer a serene escape—and a reminder of its past. Spend the morning in Asakusa, Tokyo’s historical neighbourhood, to see the Sensoji temple, then take a stroll along the Sumida River (in the spring, the cherry blossoms are in full force). Or, make your way to Tsukiji Outer Market for a sushi breakfast—the narrow corridors are packed with tons of spots to choose from (most close around noon so get there early). Turn up the volume—and get a taste for cosplay culture—in Harajuku, or hit Akihabara for video games and anime. In the evening, take a detour down a yokocho—a little side street alleyway—to find laid-back izakayas and chill bars.That’s only scratching the surface—we’ve got more recs, below."
+    },
+    {
+        "id": 155019,
+        "imgUrl": "https://cdn.britannica.com/31/76031-050-162E5900/CN-Tower-rest-skyline-Toronto-world-structure.jpg",
+        "name": "Toronto",
+        "latitude": "43.7417",
+        "longitude": "-79.3733",
+        "country": "CA",
+        "population": "5429524",
+        "description": "Canada’s largest city is a fast-paced metropolis of nearly 3 million people, with world-class restaurants, shopping, theatre, and more scattered throughout different neighbourhoods—each with their own vibe. No matter where you end up, the best place to start is at the top (literally) at the CN Tower, the tallest freestanding structure in the Western Hemisphere."
+    },
+    {
+        "id": 294197,
+        "imgUrl": "https://c4.wallpaperflare.com/wallpaper/798/291/709/autumn-lake-park-building-wallpaper-preview.jpg",
+        "name": "Seoul",
+        "latitude": "37.5833",
+        "longitude": "127",
+        "country": "KR",
+        "population": "21794000",
+        "description": "The business and cultural hub of South Korea, Seoul seamlessly blends the old and the new—a place where you'll see skyscrapers towering over palaces and pagodas. Kick things off by getting a view of it all at the N Seoul Tower, it's built atop a peak in Namsan Park, so you'll catch fantastic, panoramic city views. After that, you can get exploring on foot: The teahouses and shops of Insadong, the grounds and museums of Gyeongbokgung, and Changdeokgung Palace (a UNESCO World Heritage Site) all nod to traditional Korean culture. By contrast, cutting-edge areas like the ritzy Gangnam District cement Seoul's status as a very-right-now style capital. You'll find a mix of high-fashion houses and lesser-known, emerging designers there, but you can always find speciality boutiques, vintage shops, and wholesale fabric markets throughout the city (and K-beauty fans should be sure to check out the Myeongdong District, which has cosmetic shops at every turn). We've got plenty more recs below."
+    }
+]

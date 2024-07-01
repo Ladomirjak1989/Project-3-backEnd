@@ -8,26 +8,26 @@ const { rolesValidation } = require("../middleware/roles.middleware");
 
 // localhost:4010/Cruises/
 
-// router.get("/deals", async (req, res, next) => {
+router.get("/deal", async (req, res, next) => {
 
-//     try {
-//         const cruise = await Cruise.find();
+    try {
+        const cruise = await Cruise.find();
 
-//         const count = req.query.count
-//         const randomCruise = []
-//         for (let i = 0; i < count; i++) {
-//             let random = Math.floor(Math.random() * (cruise.length - 1))
-//             randomCruise.push(cruise[random])
-//         }
+        const count = req.query.count
+        const randomCruise = []
+        for (let i = 0; i < count; i++) {
+            let random = Math.floor(Math.random() * (cruise.length - 1))
+            randomCruise.push(cruise[random])
+        }
 
-//         res.json(randomCruise);
+        res.json(randomCruise);
 
 
-//     } catch (err) {
-//         res.status(500).send(err);
-//         next(err);
-//     }
-// })
+    } catch (err) {
+        res.status(500).send(err);
+        next(err);
+    }
+})
 
 
 

@@ -24,6 +24,11 @@ const userSchema = new Schema(
       default: "user",
       enum: ["user", "admin"],
     },
+    purchases: [Schema.Types.ObjectId],
+    cruises: [Schema.Types.ObjectId],
+    flights: [Schema.Types.ObjectId],
+    bookings: [Schema.Types.ObjectId],
+    vacations: [Schema.Types.ObjectId],
   },
   {
     // this second object adds extra properties: `createdAt` and `updatedAt`

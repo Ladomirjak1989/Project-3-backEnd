@@ -9,7 +9,10 @@ require("./db");
 // https://www.npmjs.com/package/express
 const express = require("express");
 
+
 const app = express();
+
+
 
 // Import authentication middleware
 // isAuthenticated is in charge of extracting token, 
@@ -32,6 +35,10 @@ app.use("/auth", authRouter);
 
 const adminRouter = require("./routes/admin.routes")
 // app.use("/admin", isAuthenticated, roles(["admin"]), adminRouter);
+
+// localhost:4010/users
+const userRoutes = require('./routes/user.routes')
+app.use("/users", userRoutes)
 
 const flightRouter = require('./routes/flight.routes')
 app.use("/flights", flightRouter);
